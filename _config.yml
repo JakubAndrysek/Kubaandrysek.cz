@@ -27,6 +27,12 @@ author_website_url: "https://kubaandrysek.cz"
 
 
 author_work_experiences:
+            - designation: 4. místo v celostátním kole SOČ
+              date: červen 2021
+              description: Kategorie elektro
+              company_logo: work_experiences/pletarna.png
+              company_url: https://youtu.be/9FYx6xdfJAo
+              visibility: true
             - designation: 1. místo v krajském kole SOČ
               date: květen 2021
               description: Kategorie elektro

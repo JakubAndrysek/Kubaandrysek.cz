@@ -46,7 +46,7 @@ You can easily manage the site using the admin : [http://localhost:4000/admin](h
 
 `bundle install`
 
-`bundle exec jekyll serve -livereload`
+`bundle exec jekyll serve --livereload`
 
 
 
