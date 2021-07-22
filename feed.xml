@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-22T16:37:06+00:00</updated><id>/feed.xml</id><title type="html">Kuba Andrýsek</title><author><name>Kuba Andrýsek</name></author><entry><title type="html">Dřevěné medaile</title><link href="/2020/10/08/drevene-medaile" rel="alternate" type="text/html" title="Dřevěné medaile" /><published>2020-10-08T10:00:00+00:00</published><updated>2020-10-08T10:00:00+00:00</updated><id>/2020/10/08/drevene-medaile</id><content type="html" xml:base="/2020/10/08/drevene-medaile">&lt;h1 id=&quot;výroba-dřevěných-gravírovaných-medailí-na-laseru&quot;&gt;Výroba dřevěných gravírovaných medailí na laseru&lt;/h1&gt;
+
+&lt;p&gt;V září jsem vyráběl medaile na lezecké závody &lt;a href=&quot;https://www.facebook.com/climbingtechnologycup/&quot;&gt;CT Cup&lt;/a&gt;, které se konaly na umělé stěně v Ostravě.&lt;/p&gt;
+
+&lt;p&gt;Práce zahrnovala grafický návrh medailí a jejich následnou výrobu na laseru.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog/drevene-medaile/pack.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog/drevene-medaile/pack.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog/drevene-medaile/grid.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog/drevene-medaile/grid.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog/drevene-medaile/source.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog/drevene-medaile/source.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>Kuba Andrýsek</name></author><category term="Laser" /><summary type="html">Výroba dřevěných gravírovaných medailí na laseru</summary></entry><entry><title type="html">Noční světýlko - pozdrav z tábora</title><link href="/2020/09/25/svetylko-tabor" rel="alternate" type="text/html" title="Noční světýlko - pozdrav z tábora" /><published>2020-09-25T11:00:00+00:00</published><updated>2020-09-25T11:00:00+00:00</updated><id>/2020/09/25/svetylko-tabor</id><content type="html" xml:base="/2020/09/25/svetylko-tabor">&lt;h2 id=&quot;návrh-nočního-světýlka-na-táborové-dílny-pro-ddm-helceletka&quot;&gt;Návrh nočního světýlka na táborové dílny pro DDM Helceletka&lt;/h2&gt;
+
+&lt;p&gt;O letních prázdninách pořádá &lt;a href=&quot;https://helceletka.cz/&quot;&gt;DDM Helceletka&lt;/a&gt; příměstské tábory na kterých si děti vyzkouší aktivity z různých odvětví. Naše pobočka &lt;a href=&quot;http://helceletka.cz/robotarna/&quot;&gt;Robotárna&lt;/a&gt; měla za úkol vytvořit také nějakou aktivitu kterou by si děti na táborech vyzkoušely. Finálním návrhem se tedy stalo noční světýlko “Pozdrav z tábora”, které si letos na táborech vytvořilo přes 50 dětí.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//svetylko-tabor/build.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//svetylko-tabor/build.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//svetylko-tabor/led.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//svetylko-tabor/led.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;konstrukce&quot;&gt;Konstrukce&lt;/h2&gt;
+&lt;p&gt;Noční světýlko vychází z dřívějšího projektu &lt;a href=&quot;/2019/12/20/betlem&quot;&gt;Vánoční betlém&lt;/a&gt;, který však využíval pro napájení externí powerbanku. V tomto návrhu bylo potřeba mít napájení přímo ve světýlku, které si děti následně po sestavení odnesly domů. Jako napájení jsme tedy zvolili 3 AAA baterie. Pro nasvícení plexi skla, ze kterého je betlém vyroben,využíváme 5V LED pásek, který krásně prosvítí průhledné plexisklo.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//svetylko-tabor/construction.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//svetylko-tabor/construction.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//svetylko-tabor/laser.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//svetylko-tabor/laser.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//svetylko-tabor/battery.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//svetylko-tabor/battery.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//svetylko-tabor/light.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//svetylko-tabor/light.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>Kuba Andrýsek</name></author><category term="Helceletka" /><summary type="html">Návrh nočního světýlka na táborové dílny pro DDM Helceletka</summary></entry><entry><title type="html">Chytrý kurník</title><link href="/2020/04/15/chytry-kurnik" rel="alternate" type="text/html" title="Chytrý kurník" /><published>2020-04-15T14:00:00+00:00</published><updated>2020-04-15T14:00:00+00:00</updated><id>/2020/04/15/chytry-kurnik</id><content type="html" xml:base="/2020/04/15/chytry-kurnik">&lt;h1 id=&quot;chytrý-kurník-aneb-už-máme-wifi-i-v-kurníku&quot;&gt;Chytrý kurník, aneb už máme WiFi i v kurníku&lt;/h1&gt;
+
+&lt;p&gt;Doba se nám mění, a tak se snažíme mnoho věcí si zjednodušovat a automatizovat. 
+Z tohoto důvodu jsem navrhl a vytvořil Chytrý kurník.
+Jedná se o kurník s automatickým otevíráním a zavíráním dvířek v přednastavený čas.
+Součástí kurníku je také automatické pítko a krmítko které jsme sem zakoupili. 
+Díky tomuto vybavení se stává kurník z velké části autonomní.&lt;/p&gt;
+
+&lt;h2 id=&quot;automatická-dvířka&quot;&gt;Automatická dvířka&lt;/h2&gt;
+
+&lt;h3 id=&quot;konstrukce&quot;&gt;Konstrukce&lt;/h3&gt;
+&lt;p&gt;Do kovové konstrukce dvířek je vložen 12V motorek z auta, který zajišťuje otevíraní a zavíraní dvířek.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//chytry-kurnik/system.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//chytry-kurnik/system.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//chytry-kurnik/door.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//chytry-kurnik/door.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;elektro&quot;&gt;Elektro&lt;/h4&gt;
+&lt;p&gt;Kurník je řízen pomocí modulu ESP32 a dvoukanálového relé, které je napojeno na motor dvířek. Aktuální čas je získáván z RTC modulu (DS3231). Dále využívám stepdown (LM2596) který snižuje napětí z 12V na 5V. Celá elektronka je napájena z 12V zdroje.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//chytry-kurnik/elektro1.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//chytry-kurnik/elektro1.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//chytry-kurnik/elektro2.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//chytry-kurnik/elektro2.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;souhrn-součástek&quot;&gt;Souhrn součástek&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;modul ESP32&lt;/li&gt;
+  &lt;li&gt;2 kanálové relé&lt;/li&gt;
+  &lt;li&gt;RTC modul (DS3231)&lt;/li&gt;
+  &lt;li&gt;stepdown (LM2596)&lt;/li&gt;
+  &lt;li&gt;2 tlačítka&lt;/li&gt;
+  &lt;li&gt;napájecí zdroj 12V&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;program&quot;&gt;Program&lt;/h4&gt;
+&lt;p&gt;Důvod, proč jsem zvolil modul ESP32 je v podpoře WiFi, kterou využívám k nastavování času a řízení vrátek. Na ESPčku tedy běží webový server, na který se mohu pomocí telefonu připojit a jednoduše měnit nastavení. Zbytek programu je pouze o kontrole času a následném přepínaní stavů relé. Kromě automatického řízení je také možnost řídit dvířka manuálně pomocí dvou tlačítek.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//chytry-kurnik/www-crop.png&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//chytry-kurnik/www-crop.png&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/JakubAndrysek/Chytry-kurnik&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;orange-button zoom&quot;&gt;&lt;i class=&quot;fab fa-github fa-lg &quot; style=&quot;margin-right:8px;&quot;&gt;​&lt;/i&gt;​Zdrojový kód&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Kuba Andrýsek</name></author><category term="IoT" /><summary type="html">Chytrý kurník, aneb už máme WiFi i v kurníku</summary></entry><entry><title type="html">UV Box</title><link href="/2020/01/08/uv-box" rel="alternate" type="text/html" title="UV Box" /><published>2020-01-08T14:00:00+00:00</published><updated>2020-01-08T14:00:00+00:00</updated><id>/2020/01/08/uv-box</id><content type="html" xml:base="/2020/01/08/uv-box">&lt;h1 id=&quot;vytvrzovací-komora-k-sla-3d-tiskárně&quot;&gt;Vytvrzovací komora k SLA 3D tiskárně&lt;/h1&gt;
+
+&lt;h2 id=&quot;technologie-sla&quot;&gt;Technologie SLA&lt;/h2&gt;
+&lt;p&gt;Začátkem tohoto školního roku jsme do &lt;a href=&quot;https://helceletka.cz/robotarna/&quot;&gt;Robotárny&lt;/a&gt; pořídili SLA 3D tiskárnu, která tiskne z polymerů pomocí postupnému vytvrzování tenkých vrstev kapaliny - rezinu. Tato technologie se v posledních letech velmi rozšířila a zpopularizovala hlavně díky obrovské přesnosti a možnosti vytvářet miniaturní detaily.&lt;/p&gt;
+
+&lt;h2 id=&quot;naše-sla-3d-tiskárna&quot;&gt;Naše SLA 3D tiskárna&lt;/h2&gt;
+&lt;p&gt;Zakoupili jsme tiskárnu &lt;a href=&quot;https://www.elegoo.com/collections/3d-printer-accessories/products/elegoo-mars-uv-photocuring-lcd-3d-printer&quot;&gt;ELEGOO Mars&lt;/a&gt; která má 2K tiskový display a přesnost tisku je 47 μm.
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//uv-box/sla.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//uv-box/sla.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;uv-box&quot;&gt;UV Box&lt;/h2&gt;
+&lt;p&gt;Pro vytvrzení dílů z této 3D tiskárny je potřeba mít vytvrzovací komoru. Vytisklé díly jsou totiž jen lehce zatvrdlé a je nutné je nechat dotvrdit pod UV světlem.&lt;/p&gt;
+
+&lt;h3 id=&quot;výroba-uv-komory&quot;&gt;Výroba UV komory&lt;/h3&gt;
+&lt;p&gt;Základem našeho UV Boxu je kovová &lt;a href=&quot;https://www.ikea.com/cz/cs/p/lixhult-ulozna-sestava-bila-bila-s89161508/&quot;&gt;IKEA krabice&lt;/a&gt; (25cm) nebo &lt;a href=&quot;https://www.ikea.com/cz/cs/p/haellan-skrinka-bila-50363729/&quot;&gt;větší IKEA krabice&lt;/a&gt; (45cm). Dále je potřeba UV LED pásek, my jsme využili pětimetrový &lt;a href=&quot;https://www.aliexpress.com/cheap/cheap-12v-uv-led-strip-uv.html&quot;&gt;12V UV LED pásek&lt;/a&gt; z Aliexpressu. Pásek jsem nalepil přímo na vnitřek boxu do spirály jak je vidět na obrázcích. Pro napájení jsem použil 12V zdroj. Dále jsem komoru doplnil o kousek bílého LED pásku pro osvětlení komory po vytvrzení a celé jsem to spojil 3 polohovým přepínačem.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//uv-box/start.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//uv-box/start.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//uv-box/insert.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//uv-box/insert.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//uv-box/main.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//uv-box/main.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//uv-box/led.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//uv-box/led.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vytvrzování&quot;&gt;Vytvrzování&lt;/h3&gt;
+&lt;p&gt;Při vytvrzování je ideální díly otáčet tak, aby byly stejnoměrně vytvrzené ze všech stran. K tomuto účelu jsem koupil z Aliexpressu &lt;a href=&quot;https://www.aliexpress.com/cheap/cheap-rotating-stand-3d-printer.html&quot;&gt;solární otáčecí pdoložku&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//uv-box/switch.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//uv-box/switch.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//uv-box/printer.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//uv-box/printer.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>Kuba Andrýsek</name></author><category term="SLA" /><summary type="html">Vytvrzovací komora k SLA 3D tiskárně</summary></entry><entry><title type="html">Vánoční stromeček</title><link href="/2019/12/20/stromecek" rel="alternate" type="text/html" title="Vánoční stromeček" /><published>2019-12-20T16:00:00+00:00</published><updated>2019-12-20T16:00:00+00:00</updated><id>/2019/12/20/stromecek</id><content type="html" xml:base="/2019/12/20/stromecek">&lt;h1 id=&quot;podklady-a-návod-na-výrobu-stromečku-pro-ddm-helceletka&quot;&gt;Podklady a návod na výrobu stromečku pro DDM Helceletka&lt;/h1&gt;
+
+&lt;p&gt;V listopadu 2019 jsem v rámci vánočních dílniček &lt;a href=&quot;https://helceletka.cz/&quot;&gt;DDM Helceletka&lt;/a&gt; připravil projekt svítícího vánočního stromečku. Základ tvoří stromeček vyřezaný z 3mm překližky na laseru, který je osazen LED a napájen 9V baterií. Během prosince 2019 se v Brně na pobočkách DDM Helceletky vyrobilo přes 350 těchto vánočních stromečků.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Tma.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Tma.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Komponenty.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Komponenty.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Zepredu.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Zepredu.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Zezadu.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Zezadu.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Pajeni.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Pajeni.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;konstrukce&quot;&gt;Konstrukce&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;dřevěný stromeček&lt;/li&gt;
+  &lt;li&gt;5 červených LED&lt;/li&gt;
+  &lt;li&gt;držák 9V baterie&lt;/li&gt;
+  &lt;li&gt;9V baterie&lt;/li&gt;
+  &lt;li&gt;4.7K rezistor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;návod-k-výrobě&quot;&gt;Návod k výrobě&lt;/h2&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Stromecek_navod_Page_1.png&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Stromecek_navod_Page_1.png&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Stromecek_navod_Page_2.png&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Stromecek_navod_Page_2.png&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/blog/stromecek/Stromecek_navod.pdf&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;orange-button&quot;&gt;&lt;i class=&quot;fa fa-download&quot; style=&quot;margin-right:8px;&quot;&gt;&lt;/i&gt;Stáhnout návod&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;podklady-pro-výrobu&quot;&gt;Podklady pro výrobu&lt;/h2&gt;
+
+&lt;p&gt;Jeden stromeček
+&lt;br /&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Stromecek1ks.png&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery&quot; src=&quot;/assets/blog//stromecek/Stromecek1ks.png&quot; alt=&quot;&quot; height=&quot;300&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/blog/stromecek/Stromecek1ks.svg&quot; download=&quot;&quot;&gt;&lt;button class=&quot;orange-button&quot;&gt;&lt;i class=&quot;fa fa-download&quot; style=&quot;margin-right:8px;&quot;&gt;&lt;/i&gt;Stáhnout podklady&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;100 stromečků&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Stromecek100ks.png&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery&quot; src=&quot;/assets/blog//stromecek/Stromecek100ks.png&quot; alt=&quot;&quot; height=&quot;300&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/blog/stromecek/Stromecek100ks.svg&quot; download=&quot;&quot;&gt;&lt;button class=&quot;orange-button&quot;&gt;&lt;i class=&quot;fa fa-download&quot; style=&quot;margin-right:8px;&quot;&gt;&lt;/i&gt;Stáhnout podklady&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Hromada.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Hromada.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Plato.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Plato.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;další-prototyp&quot;&gt;Další prototyp&lt;/h3&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//stromecek/Starsi.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//stromecek/Starsi.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>Kuba Andrýsek</name></author><category term="Laser" /><summary type="html">Podklady a návod na výrobu stromečku pro DDM Helceletka</summary></entry><entry><title type="html">Betlém</title><link href="/2019/12/20/betlem" rel="alternate" type="text/html" title="Betlém" /><published>2019-12-20T15:00:00+00:00</published><updated>2019-12-20T15:00:00+00:00</updated><id>/2019/12/20/betlem</id><content type="html" xml:base="/2019/12/20/betlem">&lt;h1 id=&quot;svítící-betlém-jako-vánoční-dárek&quot;&gt;Svítící betlém jako Vánoční dárek&lt;/h1&gt;
+
+&lt;p&gt;Betlém je vyroben z 4 mm tlustého plexi, které je přidělané na dřevěném držáku. Uvnitř držáku je umístěn RGB LED pásek dlouhý 15 cm.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//betlem/Betlem1.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;Betlem1&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//betlem/Betlem1.jpg&quot; alt=&quot;Betlem1&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//betlem/Betlem2.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;Betlem2&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//betlem/Betlem2.jpg&quot; alt=&quot;Betlem2&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//betlem/Betlem3.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;Betlem3&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//betlem/Betlem3.jpg&quot; alt=&quot;Betlem3&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//betlem/Betlem4.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;Betlem4&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//betlem/Betlem4.jpg&quot; alt=&quot;Betlem4&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Betlém je napájen z USB konektoru, který lze jednoduše připojit do Power banky, nebo do počítače.&lt;/p&gt;
+
+&lt;p&gt;Rozměry: 150*100 mm&lt;/p&gt;
+
+&lt;p&gt;Doba výroby: cca 2 hodiny&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//betlem/Podklady.png&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;Podklady&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//betlem/Podklady.png&quot; alt=&quot;Podklady&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/blog/betlem/Betlem.pdf&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;orange-button&quot;&gt;&lt;i class=&quot;fa fa-download&quot; style=&quot;margin-right:8px;&quot;&gt;&lt;/i&gt;Stáhnout výrobní podklady&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Kuba Andrýsek</name></author><category term="Laser" /><summary type="html">Svítící betlém jako Vánoční dárek</summary></entry><entry><title type="html">Fusion 360 postprocesor + nesting</title><link href="/2019/12/03/nesting" rel="alternate" type="text/html" title="Fusion 360 postprocesor + nesting" /><published>2019-12-03T15:00:00+00:00</published><updated>2019-12-03T15:00:00+00:00</updated><id>/2019/12/03/nesting</id><content type="html" xml:base="/2019/12/03/nesting">&lt;h1 id=&quot;návod-pro-přípravu-podkladů-pro-laser-z-fusion-360&quot;&gt;Návod pro přípravu podkladů pro laser z Fusion 360&lt;/h1&gt;
+
+&lt;h2 id=&quot;obsah-návodu&quot;&gt;Obsah návodu&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stažení postprocesoru&lt;/li&gt;
+  &lt;li&gt;Nastavení postprocesoru&lt;/li&gt;
+  &lt;li&gt;Podrobný návod na generování drah pro Fusion 360&lt;/li&gt;
+  &lt;li&gt;Pokročilé nastavení postprocesoru&lt;/li&gt;
+  &lt;li&gt;Souhrn nestovacích aplikací&lt;/li&gt;
+  &lt;li&gt;Podrobný návod pro práci s jednotlivými aplikacemi&lt;/li&gt;
+  &lt;li&gt;Další vychytávky&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;iframe-container&quot;&gt;
+&lt;iframe src=&quot;https://drive.google.com/file/d/120yMV6bapFM7dEGs11l3gzDAo6fNYaFJ/preview&quot; width=&quot;800&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/blog/nesting/Fusion-360-postprocesor+nesting.pdf&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;orange-button&quot;&gt;&lt;i class=&quot;fa fa-download&quot; style=&quot;margin-right:8px;&quot;&gt;&lt;/i&gt;Stáhnout návod&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Kuba Andrysek</name></author><category term="Návody" /><summary type="html">Návod pro přípravu podkladů pro laser z Fusion 360</summary></entry><entry><title type="html">3D model obratle</title><link href="/2019/12/03/obratel" rel="alternate" type="text/html" title="3D model obratle" /><published>2019-12-03T15:00:00+00:00</published><updated>2019-12-03T15:00:00+00:00</updated><id>/2019/12/03/obratel</id><content type="html" xml:base="/2019/12/03/obratel">&lt;h1 id=&quot;3d-model-obratle&quot;&gt;3D model obratle&lt;/h1&gt;
+
+&lt;p&gt;Přesný model lidského obratle vyrobený na 3D tiskárně v měřítku 1:1&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//obratel/obratel18.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//obratel/obratel18.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//obratel/obratel1.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//obratel/obratel1.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//obratel/obratel2.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//obratel/obratel2.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//obratel/obratel6.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//obratel/obratel6.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;výroba&quot;&gt;Výroba&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;vytisknutí modelu na 3D tiskárně&lt;/li&gt;
+  &lt;li&gt;odstranění podpor&lt;/li&gt;
+  &lt;li&gt;začištění modelu&lt;/li&gt;
+  &lt;li&gt;opakované nastříkání zlatou barvou&lt;/li&gt;
+  &lt;li&gt;vyřezání podstavce&lt;/li&gt;
+  &lt;li&gt;zabroušení podstavce&lt;/li&gt;
+  &lt;li&gt;sešroubování s obratlem&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/blog/obratel/Obratel_podklady.zip&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;orange-button&quot;&gt;&lt;i class=&quot;fa fa-download&quot; style=&quot;margin-right:8px;&quot;&gt;&lt;/i&gt;Stáhnout výrobní podklady&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//obratel/obratel20.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//obratel/obratel20.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//obratel/obratel21.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//obratel/obratel21.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//obratel/obratel8.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//obratel/obratel8.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//obratel/obratel7.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//obratel/obratel7.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//obratel/obratel10.gif&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//obratel/obratel10.gif&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>Kuba Andrýsek</name></author><category term="3D-tisk" /><summary type="html">3D model obratle</summary></entry><entry><title type="html">Roboruka</title><link href="/2019/10/15/roboruka" rel="alternate" type="text/html" title="Roboruka" /><published>2019-10-15T19:00:00+00:00</published><updated>2019-10-15T19:00:00+00:00</updated><id>/2019/10/15/roboruka</id><content type="html" xml:base="/2019/10/15/roboruka">&lt;h2 id=&quot;roboruka-je-robotická-stavebnice-z-robotárny-pobočka-ddm-helceletova-tato-stavebnice-byla-poprvé-uvedena-na-robotickém-táboře-2019&quot;&gt;Roboruka je robotická stavebnice z Robotárny (&lt;a href=&quot;https://helceletka.cz/&quot;&gt;pobočka DDM Helceletova&lt;/a&gt;). Tato stavebnice byla poprvé uvedena na Robotickém táboře 2019.&lt;/h2&gt;
+
+&lt;p&gt;Jedná se o všestranně využitelného robota. Vhodný do robotických soutěží (např. na &lt;a href=&quot;http://robotickyden.cz/&quot;&gt;Robotickém dni&lt;/a&gt; na soutěž Roadside Assistance). Rukou hýbají 3 serva, což jí umožňuje mít velký manipulační prostor.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Bok.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Bok.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Jeden.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Jeden.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Klepeto2.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Klepeto2.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Zvrchu.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Zvrchu.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Zepredu.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Zepredu.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;48%&quot; height=&quot;260px&quot; class=&quot;standart&quot; src=&quot;https://www.youtube.com/embed/K9F9NGAlI_M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;popis&quot;&gt;Popis&lt;/h2&gt;
+
+&lt;h3 id=&quot;řízení&quot;&gt;Řízení&lt;/h3&gt;
+&lt;p&gt;Robotická ruka je řízená pomocí naší desky &lt;a href=&quot;https://github.com/RoboticsBrno/RB3201-RBControl&quot;&gt;RBController&lt;/a&gt;. Mozkem této desky je &lt;a href=&quot;https://www.espressif.com/en/products/devkits/esp32-devkitc/overview&quot;&gt;ESP32-WROOM&lt;/a&gt;. Deska zvládá řídit až 8 DC motorů a obsluhovat 8 enkodérů. Umí ovládat 8 modelářských serv nebo 4 inteligentní serva &lt;a href=&quot;https://www.hiwonder.hk/products/hiwonder-lx-15d-serial-bus-servo&quot;&gt;LX-15D&lt;/a&gt; . Expander přidáva možnost ovládat o 16 pinů více. Na desce je připravena ochrana proti přepólování a podvybití.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Deska_B.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Deska_B.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Uvnitr2.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Uvnitr2.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;konstrukce&quot;&gt;Konstrukce&lt;/h3&gt;
+&lt;p&gt;Největší část robota je vyrobená z překližky vyřezané na laseru. Podvozek je vypálený z 3 milimetrové překližky a robotická ruka s rámem je postavena z 3 mm tlustých a 16 mm širokých dřevíček, které jsme si nařezali na popřebné délky.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/13.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/13.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Dily.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Dily.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Podvozek.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Podvozek.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Konstrukce.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Konstrukce.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;pohyb&quot;&gt;Pohyb&lt;/h3&gt;
+
+&lt;p&gt;Jízdu zajišťují dva DC motory řízené RBControllerem na které jsou připojeny magnetické enkodéry. Pohyb ruky řídí 3 inteligentní serva &lt;a href=&quot;https://www.hiwonder.hk/products/hiwonder-lx-15d-serial-bus-servo&quot;&gt;LX-15D&lt;/a&gt; propojená sériově do řídící desky. Serva mají rozsah 240 stupňů, kroutící moment 17 kg/cm a dokáží vyčítat svoji pozici.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Motor.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Motor.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Motory.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Motory.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;napájeni&quot;&gt;Napájeni&lt;/h3&gt;
+&lt;p&gt;Robot je napájen z našeho baterry packu, který obsahuje dvě 18650 li-ion baterie. Rám packu tvoří plošný spoj do kterého jsou připájeny kontakty na baterie a výstupní piny. Pro nábíjení se využíva modul TP4056 s micro USB konektorem.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Bat1.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Bat1.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Bat2.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Bat2.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Nabijecka.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Nabijecka.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Motor2.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Motor2.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dálkové-ovládání&quot;&gt;Dálkové ovládání&lt;/h3&gt;
+&lt;p&gt;Robot jde ovládat přes univerzální mobilní aplikaci &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.tassadar.rbcontroller&quot;&gt;RBController&lt;/a&gt; která je k dispozici pro Android na Google play, nebo pro Windows na &lt;a href=&quot;https://github.com/RoboticsBrno/rbcontroller-electron/releases&quot;&gt;Githubu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Rbc2.png&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Rbc2.png&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/App.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/App.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;programování&quot;&gt;Programování&lt;/h3&gt;
+&lt;p&gt;Software pro Roboruku je napsaný v C++ ve Visual Studiu. Pro řízení desky RBController je vytvořená knihovna &lt;a href=&quot;https://github.com/RoboticsBrno/RB3201-RBControl-library&quot;&gt;RB3201-RBControl-library&lt;/a&gt;, na které je postavena knihovna &lt;a href=&quot;https://github.com/RoboticsBrno/RB3201-RBControl-Roboruka-library&quot;&gt;RB3201-RBControl-Roboruka-library&lt;/a&gt; která zjednodušuje programování Roboruky. Příklady práce s knihovnou a testovací programy naleznete na &lt;a href=&quot;https://github.com/RoboticsBrno/roboruka-examples&quot;&gt;Githubu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/RoboticsBrno/roboruka-examples&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;orange-button zoom&quot;&gt;&lt;i class=&quot;fab fa-github fa-lg &quot; style=&quot;margin-right:8px;&quot;&gt;​&lt;/i&gt;​Příklady kódu&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Program.png&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Program.png&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Git.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Git.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;rameno-a-klepeto&quot;&gt;Rameno a klepeto&lt;/h3&gt;
+&lt;p&gt;Konstrukce ramene je navržená tak, aby při pohybu objekt v klepetech dobře držel a jednoduše se s ním manipulovalo. Pro přesný pohyb ramene využíváme dvě inteligentní serva, třetí zajišťuje otevírání klepete.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Rameno.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Rameno.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Klepeto.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Klepeto.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;senzorická-lišta&quot;&gt;Senzorická lišta&lt;/h3&gt;
+&lt;p&gt;Na podvozek robota je připojena &lt;a href=&quot;https://github.com/RoboticsBrno/RB0001-LineSensor&quot;&gt;senzorická lišta&lt;/a&gt; s 8 senzory, pomocí které robot může jezdit po čáře, nebo po barevném rozhraní. Lišta s řídící deskou komunikuje přes sběrnici SPI. &lt;a href=&quot;https://github.com/RoboticsBrno/RB0001-LineSensor&quot;&gt;Knihovna&lt;/a&gt; pro senzorickou lištu.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/Lista.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/Lista.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ui-board&quot;&gt;UI Board&lt;/h3&gt;
+&lt;p&gt;Rozšíření řídicí desky. Pomocí této desky jde robot programovat bez nutnosti otevření , zapínat/vypínat, ovládat tlačítka, atd.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/UI.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/UI.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;
+&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//roboruka/UI-robot.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery standart&quot; src=&quot;/assets/blog//roboruka/UI-robot.jpg&quot; alt=&quot;&quot; width=&quot;48%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- ### [Pohled do historie]() --&gt;</content><author><name>Kuba Andrýsek</name></author><category term="Roboruka" /><summary type="html">Roboruka je robotická stavebnice z Robotárny (pobočka DDM Helceletova). Tato stavebnice byla poprvé uvedena na Robotickém táboře 2019.</summary></entry><entry><title type="html">Kalendář pro Lezcata.cz</title><link href="/2018/10/25/lezcata-kalendar" rel="alternate" type="text/html" title="Kalendář pro Lezcata.cz" /><published>2018-10-25T15:00:00+00:00</published><updated>2018-10-25T15:00:00+00:00</updated><id>/2018/10/25/lezcata-kalendar</id><content type="html" xml:base="/2018/10/25/lezcata-kalendar">&lt;h1 id=&quot;napojení-sdíleného-google-kalendáře-pro-lezecký-oddíl-lezčata&quot;&gt;Napojení sdíleného Google kalendáře pro lezecký oddíl Lezčata&lt;/h1&gt;
+&lt;h2 id=&quot;wwwlezcatacz&quot;&gt;&lt;a href=&quot;http://lezcata.cz/&quot;&gt;www.lezcata.cz&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Akce se automaticky načítají ze společného Google kalendáře.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//lezcata/lezcata10.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery&quot; src=&quot;/assets/blog//lezcata/lezcata10.jpg&quot; alt=&quot;&quot; width=&quot;60%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;kalendář-umožňuje-zobrazit&quot;&gt;Kalendář umožňuje zobrazit&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;datum konání&lt;/li&gt;
+  &lt;li&gt;popis akce&lt;/li&gt;
+  &lt;li&gt;místo konání&lt;/li&gt;
+  &lt;li&gt;obrázek&lt;/li&gt;
+  &lt;li&gt;přiložené dokumenty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a style=&quot;text-decoration: none;&quot; href=&quot;/assets/blog//lezcata/lezcata6.jpg&quot; data-fancybox=&quot;gallery&quot; data-caption=&quot;&quot;&gt;
+	&lt;img class=&quot;gallery&quot; src=&quot;/assets/blog//lezcata/lezcata6.jpg&quot; alt=&quot;&quot; width=&quot;60%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>Kuba Andrýsek</name></author><category term="Lezčata" /><summary type="html">Napojení sdíleného Google kalendáře pro lezecký oddíl Lezčata www.lezcata.cz</summary></entry></feed>
