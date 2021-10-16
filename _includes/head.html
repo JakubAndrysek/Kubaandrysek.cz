@@ -39,8 +39,8 @@
       <meta content="{{ site.url }}/{{ page.image }}" property="og:image">
       <meta content="{{ site.url }}/{{ page.image }}" property="og:image:secure_url"/>
     {% else if page.thumbnail%}
-      <meta content="{{ site.url }}/assets/blog/{{ page.thumbnail }}" property="og:image">
-      <meta content="{{ site.url }}/assets/blog/{{ page.thumbnail }}" property="og:image:secure_url">
+      <meta content="{{ site.url }}/assets/blog/{{ page.media_folder }}/{{ page.thumbnail }}" property="og:image">
+      <meta content="{{ site.url }}/assets/blog/{{ page.media_folder }}/{{ page.thumbnail }}" property="og:image:secure_url">
     {% else %}
       <meta content="{{ site.url }}/assets/page/home/home.png" property="og:image">
       <meta content="{{ site.url }}/assets/page/home/home.png" property="og:image:secure_url">
