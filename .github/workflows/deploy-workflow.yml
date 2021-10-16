@@ -1,23 +1,43 @@
-name: deploy
+# name: deploy
+
+# on:
+#   push:
+#     branches:
+#       - master
+
+# jobs:
+#   build:
+#     name: deploy
+#     runs-on: ubuntu-18.04
+#     steps:
+#       - name: checkout repo
+#         uses: actions/checkout@v2
+#         with:
+#           ref: 'master'
+#       - name: Build & Deploy to GitHub Pages
+#         uses: ./.github/actions/build-dist-site
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+#           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+#    #     uses: BryanSchuetz/jekyll-deploy-gh-pages@master
+
+name: Deploy to Github Pages
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
-    name: deploy
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - name: checkout repo
-        uses: actions/checkout@v2
-        with:
-          ref: 'master'
-      - name: Build & Deploy to GitHub Pages
-        uses: ./.github/actions/build-dist-site
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-   #     uses: BryanSchuetz/jekyll-deploy-gh-pages@master
+    - uses: actions/checkout@v2
+    - name: Deploy Jekyll Site
+      uses: sujaykundu777/jekyll-deploy-action@1.0.3
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+        GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
