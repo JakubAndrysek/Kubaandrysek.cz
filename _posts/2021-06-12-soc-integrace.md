@@ -108,7 +108,7 @@ Webové stránky běží na HTTP serveru Apache2 a PHP 8.0.
 Jako databázový systém využívám MariaDB.
 Server běží lokálně uvnitř firmy v zabezpečené síti, díky čemuž je systém rychlý a nezávislý na internetovém připojení.
 
-Na webový server se dá jednoduše připojit otevřením lokálního firemního odkazu \newline\href{http://pletacka.local}{pletacka.local}.
+Na webový server se dá jednoduše připojit otevřením lokálního firemního odkazu.
 Poté se uživateli zobrazí úvodní přehledová stránka s barevnými bublinami, které představují jednotlivé pletací stroje.
 Jejich barva pak udává v jakém stavu se stroj aktuálně nachází. Uživatel tak dokáže velmi rychle zjistit aktuální funkčnost pletacích strojů bez nutnosti návštěvy pletárny.
 Kromě barvy se v bublině zobrazuje také text, ten ukazuje počet upletených ponožek a v případě zastavení stroje a zčervenání se text změní na dobu zastavení stroje.
@@ -120,7 +120,7 @@ url="Uvod.png"
 Další webovou stránkou jsou Přehledy ze senzorů generované pro každý pletací stroj.
 Zde se uživateli zobrazují data v různých časových přehledech.
 Pro snadné porovnání dat mezi dvěma směnami se tyto údaje zobrazují vedle sebe.
-Pod číselnými přehledy jsou pak předgenerované dlouhodobé grafy viz obrázek \ref{fig:webSenzory}.
+Pod číselnými přehledy jsou pak předgenerované dlouhodobé grafy viz obrázek výše.
 
 Každý senzor využívá pět databázových tabulek. První slouží k ukládání surových dat, do zbylých tabulek se pak ukládají automaticky generované přehledy.
 Ty slouží k rychlému vykreslení grafů a výpočtu dlouhodobých údajů.
@@ -186,10 +186,7 @@ Systém je k 20. červnu 2021 nasazen na deseti pletacích strojích a po dobu
 
 Velkým přínosem pro firmu je porovnávání pracovních směn, díky kterým zaměstnavatel ihned vidí rozdíly mezi produktivitou práce v daném čase.
 
-Díky této práci jsem se naučil navrhovat plošné spoje, rozšířil jsem si obzory v elektronice a při vývoji jsem si vyzkoušel práci s měřícími přístroji.
-Také jsem se naučil programovat v jazyce PHP a vytvářet komplexní webové systémy.
-
-V budoucnu bych chtěl tento systém rozšířit na všechny pletací stroje a pokrýt tak celou výrobu.
-Taktéž pokračuji na vylepšování webové aplikace a plánuji ji rozšířit o další funkce, například o export dat do tabulek.
-
-Všechny zdrojové kódy a DPS k projektu jsou k dispozici na [github.com/Pletacka-IoT]([https://link](https://github.com/Pletacka-IoT)) pod MIT licencí.
+{% include github_button.html
+url="github.com/Pletacka-IoT"
+text="Zdrojové kódy"
+%}
