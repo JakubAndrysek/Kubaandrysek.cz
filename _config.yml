@@ -72,15 +72,15 @@ author_education_details:
 # It depends on the order
 show_author_project_details: true
 projects:
+  - Rotex
+  - Helceletka
   - IoT
   - Roboruka
   - Laser
   - 3D-tisk
   - SLA
-  - Helceletka
   - Návody
   - Lezčata
-  - Rotex
 
 # social links
 github_username:  JakubAndrysek

@@ -1261,7 +1261,7 @@ book-open:
   label: Book Open
   search:
     terms:
-      - notebook
+      - software
       - open book
       - reading
   styles:
