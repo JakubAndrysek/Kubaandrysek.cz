@@ -1,11 +1,10 @@
 ---
-                                 #url se určuje podle názvu
 title: Integrace do průmyslu 4.0
-layout: post                     #layout|šablona
-author: Kuba Andrýsek            #authos|autor
-date: '2021-06-12 16:00:00 +1'   #date|datum vytvoření článku
+layout: post
+author: Kuba Andrýsek
+date: '2021-06-12 16:00:00 +1'
 category: IoT                #category|kategorie -> pro novou kategorii je potřeba vytvořit stránku v "categories"
-description: Systém pro automatický monitoring průmyslové výroby              #Header|nadpis
+description: Systém pro automatický monitoring průmyslové výroby
 media_folder: soc-integrace
 thumbnail: main2.png
 head_photo: head-t2.png
@@ -190,3 +189,5 @@ Velkým přínosem pro firmu je porovnávání pracovních směn, díky kterým 
 url="github.com/Pletacka-IoT"
 text="Zdrojové kódy"
 %}
+
+{% include youtubePlayer.html id="9FYx6xdfJAo" %}

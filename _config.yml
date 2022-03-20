@@ -5,94 +5,88 @@ title: Kuba Andrýsek
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    # - text: O mě
-    #   url: /about
     - text: Projekty
       url: /projekty/
     - text: Blog
       url: /blog/
-    # - text: Galerie
-    #   url: /gallery
+    - text: Vybavení
+      url: /vybaveni/
     - text: Kontakt
       url : /kontakt/
-    # - text: Styleguide
-    #   url: /styleguide
-    # - text: Get Started
-    #   url: /get-started
 
 author: Kuba Andrýsek
 author_email: "email@kubaandrysek.cz"
 author_location: Česká republika - Brno
 author_website_url: "https://kubaandrysek.cz"
 
-
+# image 100x100px
 author_work_experiences:
-            - designation: 4. místo v celostátním kole SOČ
-              date: červen 2021
-              description: Kategorie elektro
-              company_logo: work_experiences/pletarna.png
-              company_url: https://youtu.be/9FYx6xdfJAo
-              visibility: true
-            - designation: 1. místo v krajském kole SOČ
-              date: květen 2021
-              description: Kategorie elektro
-              company_logo: work_experiences/soc21.png
-              company_url: https://youtu.be/9FYx6xdfJAo
-              visibility: true
-            - designation: 2. místo v krajském kole soutěže programování mikročipů
-              date: duben 2021
-              description:
-              company_logo: work_experiences/mikro21.png
-              company_url:
-              visibility: true
-            - designation: Dvě první místa na robotickém dni v Praze
-              date: červen 2019
-              description: V kategoriích Toy Cleanup a Roadside Assistance
-              company_logo: work_experiences/medvedice.jpg
-              company_url: http://robotickyden.cz                        
-              visibility: true
+  - designation: Cena Nadačního fondu Jaroslava Heyrovského
+    date: prosinec 2021
+    description: Za úspěšnou práci SOČ
+    company_logo: work_experiences/heyrovsky.png
+    company_url: http://www.njh.cz/laureati-2021
+  - designation: Nominace na mezinárodní soutěže
+    date: září 2021
+    description: Kategorie elektro
+    company_logo: work_experiences/mezinarod.jpg
+  - designation: 4. místo v celostátním kole SOČ
+    date: červen 2021
+    description: Kategorie elektro
+    company_logo: work_experiences/pletarna.png
+    company_url: https://youtu.be/9FYx6xdfJAo
+  - designation: 1. místo v krajském kole SOČ
+    date: květen 2021
+    description: Kategorie elektro
+    company_logo: work_experiences/soc21.png
+    company_url: https://youtu.be/9FYx6xdfJAo
+
 
 author_work_experiences_more:
-            - designation: 1. místo v programátorské soutěži
-              date: březen 2019
-              description: 
-              company_logo: work_experiences/code.png
-              company_url: 
-              visibility: true
-# TODO add second work experience show/hide list
+  - designation: 2. místo v krajském kole soutěže programování mikročipů
+    date: duben 2021
+    description:
+    company_logo: work_experiences/mikro21.png
+    company_url:
+  - designation: Dvě první místa na robotickém dni v Praze
+    date: červen 2019
+    description: V kategoriích Toy Cleanup a Roadside Assistance
+    company_logo: work_experiences/medvedice.jpg
+    company_url: http://robotickyden.cz
+  - designation: 1. místo v programátorské soutěži
+    date: březen 2019
+    description:
+    company_logo: work_experiences/code.png
+    company_url:
 
 show_author_education_details: true
 author_education_details:
-              - college_logo: education/gvid.jpg
-                college_name: Gymnázium Brno, Vídeňská, příspěvková organizace
-                college_url: http://www.gvid.cz
-                description: Šestileté gymnázium zaměřené na informatiku
-                visibility: true
+  - college_logo: education/gvid.jpg
+    college_name: Gymnázium Brno, Vídeňská, příspěvková organizace
+    college_url: http://www.gvid.cz
+    description: Šestileté gymnázium zaměřené na informatiku
+    visibility: true
 
 # Setup for page projekty-categories
 # Which categories are displayed on page projekty
 # It depends on the order
 show_author_project_details: true
 projects:
-      - IoT
-      - Roboruka
-      - Laser
-      - 3D-tisk
-      - SLA
-      - Helceletka
-      - Návody
-      - Lezčata
-      - Rotex
-
-# projects:
-#       - IoTIoT
-#       - roboruka      
+  - IoT
+  - Roboruka
+  - Laser
+  - 3D-tisk
+  - SLA
+  - Helceletka
+  - Návody
+  - Lezčata
+  - Rotex
 
 # social links
-twitter_username: Jakubandrysek1
 github_username:  JakubAndrysek
-# facebook_username: johndoe
 linkedin_username: jakub-andrysek
+twitter_username: Jakubandrysek1
+# facebook_username: johndoe
 # behance_username: johndoe
 # instagram_username: johndoe
 # medium_username: johndoe
