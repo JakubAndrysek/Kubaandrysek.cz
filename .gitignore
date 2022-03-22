@@ -6,4 +6,3 @@ _site
 .jekyll-metadata
 vendor
 build/
-Gemfile.lock

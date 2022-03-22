@@ -14,7 +14,7 @@ keywords: [helceletka, airtable, wordpress, databáze, plugin, úkoly]
 # Zobraování osobních úkolů z Airtablu
 
 Rozdělování úkolů v dnešní době už velmi často bývá zprostředkováváno skrze mobilní nebo webové aplikace.
-V tomto projektu jsem navrhoval databázi v Airtablu, která slouží k zaznamenávání úkolů pro zmaěstnance.
+V tomto projektu jsem navrhoval databázi v Airtablu, která slouží k zaznamenávání úkolů pro zaměstnance.
 
 {% include image-w.html
 url="airtable1.png"
@@ -33,10 +33,9 @@ width="100%"
 
 ## Hodnocení úkolů
 
-Součástí pluginu je také jedoduché hodnoceni v podobě berevného obrázku houby.
+Součástí pluginu je také jednoduché hodnoceni v podobě barevného obrázku houby.
 
 {% include image-w.html
 url="houby-hodnoceni.png"
 width="100%"
 %}
-

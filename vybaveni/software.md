@@ -1,5 +1,5 @@
 ---
-title: Můj notebook & software
+title: Moje oblíbené aplikace
 menus: header
 layout: vybaveni
 image: assets/blog/blog.png
@@ -10,24 +10,6 @@ media_folder: ../page/vybaveni/software
   <div class="col-md-6">
   {{ "
 
-- Laptop
-  - [Lenovo ThinkPad E15-IML](https://www.tsbohemia.cz/lenovo-thinkpad-e15-20rd0011mc-_d345439.html)
-- Operating system
-  - [Linux](http://www.linux.cz/)
-- Distribution
-  - [Regolith](https://regolith-linux.org/)
-- Window manager
-  - [i3-gaps](https://github.com/Airblader/i3) ([CZ manual](https://www.radekchalupa.cz/clanky/i3-configuration-introduction/))
-- Bar
-  - [Bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status)
-- Application launcher
-  - [Rofi](https://github.com/davatorium/rofi) + [Rofimoji](https://github.com/fdw/rofimoji) (emoji)
-- Desktop notification manager
-  - [Dunst](https://github.com/dunst-project/dunst)
-- Background applications
-  - [Flameshot](https://flameshot.org/) - screenshot
-  - [Crow translate](https://crow-translate.github.io/) - translator
-  - [Udiskie](https://github.com/coldfix/udiskie) - Automounter for removable media
 - Standard applications
   - [Mailspring](https://getmailspring.com/) - emails
   - [Opera](https://www.opera.com/) / [Google Chrome](https://www.google.com/chrome) - web browser
@@ -35,6 +17,20 @@ media_folder: ../page/vybaveni/software
   - [VSCode](https://code.visualstudio.com/) / [Micro](https://micro-editor.github.io/) - text editor
   - [LibreOffice](https://libreoffice.org/) - Office
   - [Krusader](https://apps.kde.org/cs/krusader/) - file manager
+- IDE
+  - [VSCode](https://code.visualstudio.com/)
+  - [Clion](https://www.jetbrains.com/clion/) / [Code blocks](https://www.codeblocks.org/) - C++, C
+  - [Pycharm](https://www.jetbrains.com/pycharm/) - Python
+  - [WebStorm](https://www.jetbrains.com/webstorm/) - JS, Jekyll
+  - [PhpStorm](https://www.jetbrains.com/phpstorm/) - PHP
+  - [IntelliJ IDEA](https://www.jetbrains.com/idea/) / [NetBeans](https://netbeans.apache.org/) - Java
+  - [Android Studio](https://developer.android.com/studio) - Android
+- DEV tools
+  - [Lorris](https://tasssadar.github.io/Lorris/) - GUI tool for robotics
+  - [Postman](https://www.postman.com/) - API platform
+  - [VirtualBox](https://www.virtualbox.org/) - virtualization product
+  - [Wireshark](https://www.wireshark.org/) - network protocol analyzer
+  - [VNC Viewer](https://www.realvnc.com/connect/) - remote desktop application
 - Graphics &amp; PCB
   - [Gwenview](https://apps.kde.org/gwenview/) - image viewer
   - [GIMP](https://www.gimp.org/) - image editor
@@ -50,20 +46,10 @@ media_folder: ../page/vybaveni/software
   - [Ferdi](https://getferdi.com/) - messaging app
   - [Discord](https://discord.com/) - communication platform
   - [Spotify](https://www.spotify.com/) - digital music service
-- IDE
-  - [VSCode](https://code.visualstudio.com/)
-  - [Clion](https://www.jetbrains.com/clion/) / [Code blocks](https://www.codeblocks.org/) - C++, C
-  - [Pycharm](https://www.jetbrains.com/pycharm/) - Python
-  - [WebStorm](https://www.jetbrains.com/webstorm/) - JS, Jekyll
-  - [PhpStorm](https://www.jetbrains.com/phpstorm/) - PHP
-  - [IntelliJ IDEA](https://www.jetbrains.com/idea/) / [NetBeans](https://netbeans.apache.org/) - Java
-  - [Android Studio](https://developer.android.com/studio) - Android
-- DEV tools
-  - [Lorris](https://tasssadar.github.io/Lorris/) - GUI tool for robotics
-  - [Postman](https://www.postman.com/) - API platform
-  - [VirtualBox](https://www.virtualbox.org/) - virtualization product
-  - [Wireshark](https://www.wireshark.org/) - network protocol analyzer
-  - [VNC Viewer](https://www.realvnc.com/connect/) - remote desktop application
+- Background applications
+  - [Flameshot](https://flameshot.org/) - screenshot
+  - [Crow translate](https://crow-translate.github.io/) - translator
+  - [Udiskie](https://github.com/coldfix/udiskie) - Automounter for removable media
 - Other
   - [Kdenlive](https://kdenlive.org/) - video editor
   - [CoBang](https://github.com/hongquan/CoBang) - QR-code
@@ -71,6 +57,7 @@ media_folder: ../page/vybaveni/software
 - Coding activity
   - [Wakatime](https://wakatime.com/)
   - [Codetime](https://codetime.datreks.com/)
+
      " | markdownify }}
   </div>
   <div class="col-6">
