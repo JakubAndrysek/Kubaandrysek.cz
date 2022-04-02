@@ -11,4 +11,6 @@ or
 
 `make install`
 
-`make serve --livereload`
+`make serve` - serve static
+
+`make serve-live` - serve with livereload

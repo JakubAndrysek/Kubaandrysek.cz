@@ -1,3 +1,7 @@
+html {
+    --orange-hover: #dfb674;
+}
+
 body{
     background-color: #111;
 }
@@ -122,7 +126,7 @@ ul{
 
 
 .orange-button:hover {
-    background-color: #dfb674;
+    background-color: var(--orange-hover);
   }
 
 
@@ -157,9 +161,52 @@ a.nav-link.nav-hover.active {
   }
 
 
-.page-link{
-	background-color:#f69801;
-	border-color: #f69801;
-	color: white;
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    background-color: var(--card-background-color);
+    border: 1px solid var(--link-color) !important;
+}
+.page-item.disabled .page-link {
+    color: #868e96;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #64615c;
+    /*border-color: #718393;*/
+}
+.page-item.active .page-link {
+    z-index: 1;
+    background-color: var(--link-color) !important;
+    color: white !important;
+}
+.page-link:focus, .page-link:hover {
+    color: white !important;
+    text-decoration: none;
+    background-color: var(--orange-hover);
 }
 
+
+/* Nathan Lam
+   From: https://github.com/nathancy/jekyll-embed-video
+   June 2, 2017
+   Add this css for responsive embedded videos in your .css file. */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

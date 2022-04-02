@@ -1,0 +1,11 @@
+{% comment %}
+    Usage: {% include vybaveniCard.html image="laptop.png" title="Můj notebook & software" description="Soupis zajímavého softwaru v mém počítači" href="software.html"%}
+{% endcomment %}
+
+<div class="card blog-post" style="width: 20rem;">
+    <a href="{{ include.href }}"><img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/{{ page.media_folder }}/{{ include.image }}" alt=""></a>
+    <div class="card-body">
+        <h4 class="card-title"><a href="{{ include.href }}" data-disqus-identifier="{{ include.href }}">{{ include.title }}</a></h4>
+        <p class="card-text">{{ include.description }}</p>
+    </div>
+</div>
