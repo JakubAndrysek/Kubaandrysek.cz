@@ -138,9 +138,6 @@ permalink: /:year/:month/:day/:title
 #   permalinks:
 #     category: '/category/:name/'
 
-
-highlighter: rouge
-
 theme: devlopr
 plugins:
   - jekyll-feed
