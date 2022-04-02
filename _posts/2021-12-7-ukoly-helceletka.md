@@ -11,7 +11,7 @@ head_photo: head.png
 keywords: [helceletka, airtable, wordpress, databáze, plugin, úkoly]
 --- 
 
-# Zobraování osobních úkolů z Airtablu
+# Zobrazování osobních úkolů z Airtablu
 
 Rozdělování úkolů v dnešní době už velmi často bývá zprostředkováváno skrze mobilní nebo webové aplikace.
 V tomto projektu jsem navrhoval databázi v Airtablu, která slouží k zaznamenávání úkolů pro zaměstnance.

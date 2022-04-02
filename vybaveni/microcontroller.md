@@ -6,5 +6,5 @@ image: assets/blog/blog.png
 media_folder: ../page/vybaveni/software
 ---
 
-## Připravuji
+## Připravuji...
 
