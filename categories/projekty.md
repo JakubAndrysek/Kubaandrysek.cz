@@ -20,9 +20,11 @@ image: assets/page/projekty/projekty.png
       <div class="card-body center">
         <!--TITLE-->
         <h4 class="card-title">{{projekt}}</h4>
-        {% for post in site.categories[projekt] limit:5 %}
-          <h6 class="card-subtitle mb-2 "><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h6>
-        {% endfor %}
+        <ul class="card-text">
+            {% for post in site.categories[projekt] limit:5 %}
+              <li class="card-subtitle mb-2 "><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+            {% endfor %}
+        </ul>
         <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>-->
       </div>
     </div>     
