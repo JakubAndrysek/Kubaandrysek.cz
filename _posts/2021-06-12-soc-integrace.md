@@ -186,7 +186,7 @@ Systém je k 20. červnu 2021 nasazen na deseti pletacích strojích a po dobu
 Velkým přínosem pro firmu je porovnávání pracovních směn, díky kterým zaměstnavatel ihned vidí rozdíly mezi produktivitou práce v daném čase.
 
 {% include github_button.html
-url="github.com/Pletacka-IoT"
+url="https://github.com/Pletacka-IoT"
 text="Zdrojové kódy"
 %}
 

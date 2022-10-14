@@ -66,6 +66,12 @@ layout: default
                     <i class="fab fa-flickr fa-2x zoom"></i>
                 </a>
                 {% endif %}
+
+                {% if site.scholar_username %}
+                <a class="social-link" target="_blank" href="https://scholar.google.cz/citations?user={{ site.scholar_username }}">
+                    <i class="fas fa-book fa-2x zoom"></i>
+                </a>
+                {% endif %}
             </p>
 
             {% if site.author_location %}
