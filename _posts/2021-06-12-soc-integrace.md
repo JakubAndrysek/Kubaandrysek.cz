@@ -185,9 +185,27 @@ Systém je k 20. červnu 2021 nasazen na deseti pletacích strojích a po dobu
 
 Velkým přínosem pro firmu je porovnávání pracovních směn, díky kterým zaměstnavatel ihned vidí rozdíly mezi produktivitou práce v daném čase.
 
+## Textová práce
+{% include button_generic.html
+url="https://drive.google.com/file/d/1c1HI9ECNU6c10owQugKubUP2j7m8Fm-p/view?usp=sharing"
+text="Integrace do průmyslu 4.0"
+icon="fas fa-book"
+%}
+
+## Úspěchy 🏆
+- 1️⃣️ místo ve školním kole SOČ (duben 2021)
+- 1️⃣ místo v krajském kole SOČ (květen 2021)
+- 4️⃣ místo v celostátním kole SOČ (červen 2021)
+- Nominace na mezinárodní soutěže (září 2021)
+  - 🇱🇺 Expo-Sciences Luxembourg 2022, Lucemburk, Lucembursko
+  - 🇺🇸 Regeneron ISEF, Atlanta, USA (náhradník)
+- Prezentace na mezinárodní konferenci (září 2022)
+  - 🇱🇺 Expo-Sciences Luxembourg 2022, Lucemburk, Lucembursko
+
+
 {% include github_button.html
 url="https://github.com/Pletacka-IoT"
-text="Zdrojové kódy"
+text="Zdrojové kódy a další informace"
 %}
 
 {% include youtubePlayer.html id="9FYx6xdfJAo" %}

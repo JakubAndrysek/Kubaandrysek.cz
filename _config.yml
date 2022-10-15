@@ -21,6 +21,11 @@ author_website_url: "https://kubaandrysek.cz"
 
 # image 100x100px
 author_work_experiences:
+  - designation: Prezentace SOČ na mezinárosní konferenci v Lucembursku
+    date: říjen 2022
+    description: Konference Expo-Sciences Luxembourg 2022
+    company_logo: work_experiences/lucembursko.jpg
+    company_url: https://stisk.online/a/iib4p/davat-sanci-mladym-lidem-ma-smysl-rika-student-jakub-andrysek
   - designation: Cena Nadačního fondu Jaroslava Heyrovského
     date: prosinec 2021
     description: Za úspěšnou práci SOČ
@@ -30,11 +35,6 @@ author_work_experiences:
     date: září 2021
     description: Kategorie elektro
     company_logo: work_experiences/mezinarod.jpg
-  - designation: 4. místo v celostátním kole SOČ
-    date: červen 2021
-    description: Kategorie elektro
-    company_logo: work_experiences/pletarna.png
-    company_url: https://youtu.be/9FYx6xdfJAo
   - designation: 1. místo v krajském kole SOČ
     date: květen 2021
     description: Kategorie elektro
@@ -43,6 +43,11 @@ author_work_experiences:
 
 
 author_work_experiences_more:
+  - designation: 4. místo v celostátním kole SOČ
+    date: červen 2021
+    description: Kategorie elektro
+    company_logo: work_experiences/pletarna.png
+    company_url: https://youtu.be/9FYx6xdfJAo
   - designation: 2. místo v krajském kole soutěže programování mikročipů
     date: duben 2021
     description:
