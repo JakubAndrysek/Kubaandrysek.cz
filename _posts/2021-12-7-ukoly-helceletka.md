@@ -3,7 +3,7 @@ title: Plánování úkolů pro DDM Helceletova
 layout: post
 author: Kuba Andrýsek
 date: '2021-12-07 11:00:00 +1'
-category: Helceletka                #category|kategorie -> pro novou kategorii je potřeba vytvořit stránku v "categories"
+category: Helceletka
 description: Návrh Airtable databáze s úkoly pro zaměstnance a tvorba zobrazovacího pluginu do WordPressu
 media_folder: ukoly-helceletka
 thumbnail: thumbnail.png

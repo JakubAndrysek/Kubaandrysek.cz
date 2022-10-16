@@ -3,7 +3,7 @@ title: Integrace do průmyslu 4.0
 layout: post
 author: Kuba Andrýsek
 date: '2021-06-12 16:00:00 +1'
-category: IoT                #category|kategorie -> pro novou kategorii je potřeba vytvořit stránku v "categories"
+category: IoT
 description: Systém pro automatický monitoring průmyslové výroby
 media_folder: soc-integrace
 thumbnail: main2.png

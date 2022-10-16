@@ -77,12 +77,14 @@ author_education_details:
 # It depends on the order
 show_author_project_details: true
 projects:
+  - IoT
   - Rotex
   - Helceletka
-  - IoT
+  - Programování
   - Roboruka
   - Laser
   - 3D-tisk
+  - Elektro
   - SLA
   - Návody
   - Lezčata
@@ -117,6 +119,9 @@ formspree_form_id: xpzorajw
 markdown: kramdown
 highlighter: rouge
 #permalink: pretty
+
+kramdown:
+  input: GFM
 
 # google analytics
 google_analytics: UA-149505692-2

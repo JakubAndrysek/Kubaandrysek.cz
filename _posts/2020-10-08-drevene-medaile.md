@@ -4,7 +4,7 @@ title: Dřevěné medaile #title|název článku
 layout: post                     #layout|šablona
 author: Kuba Andrýsek            #authos|autor
 date: '2020-10-08 10:00:00 +1'   #date|datum vytvoření článku
-category: Laser                #category|kategorie -> pro novou kategorii je potřeba vytvořit stránku v "categories"
+category: Laser
 description: Výroba gravírovaných medailí na laseru              #Header|nadpis
 media_folder: drevene-medaile
 thumbnail: main.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
