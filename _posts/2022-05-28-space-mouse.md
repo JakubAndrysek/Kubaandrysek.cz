@@ -1,10 +1,10 @@
 ---
-title: Python knihovna pro práci s 3D myší SpaceMouse 
+title: Python knihovna pro práci s 3D myší SpaceMouse
 layout: post
 author: Kuba Andrýsek
 date: '2022-05-28 14:00:00 +1'
 category: Programování
-description: SpaceMouse Dof6 knihovna pro řízení robotů
+description: SpaceMouse 6-DOF knihovna pro řízení robotů
 media_folder: space-mouse
 thumbnail: Mouse-robot.jpg
 head_photo: ""
@@ -13,8 +13,8 @@ keywords: [space-mouse, python, mouse, 3d-mouse]
 
 # {{ page.title }}
 
-Ovládání robotů není jednoduché, většinou se mohou pohybovat a hýbat mnoho osami. 
-To se standardní herní konzolí ovládá celkem špatně, nemluvě pak o klávesnici. 
+Ovládání robotů není jednoduché, většinou se mohou pohybovat a hýbat mnoho osami.
+To se standardní herní konzolí ovládá celkem špatně, nemluvě pak o klávesnici.
 Proto jsem vytvořil multiplatformní knihovnu pro práci s 3D myší, která podporuje 6 os pohybu a disponuje několika tlačítky.
 
 {% include image-w.html
