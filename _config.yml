@@ -158,6 +158,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-algolia
   - jekyll-menus
+  - jekyll-target-blank
 
 
 # Exclude from processing.

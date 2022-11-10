@@ -59,7 +59,6 @@ if success:
         time.sleep(0.01)
 ```
 
-[![PyPI version](https://badge.fury.io/py/pyspacemouse.svg)](https://badge.fury.io/py/pyspacemouse)
 {% include github_button.html
 url="https://github.com/JakubAndrysek/pyspacemouse"
 text="Zdrojové kódy a další informace"
