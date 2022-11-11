@@ -6,8 +6,9 @@ author: Kuba Andrýsek            #authos|autor
 date: '2020-04-15 14:00:00 +1'   #date|datum vytvoření článku
 category: IoT               #category|kategorie -> pro novou kategorii je potřeba vytvořit stránku v "categories"
 description: Chytrý kurník, aneb automatizace celého kurníku              #Header|nadpis
-thumbnail: chytry-kurnik/main.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
-head_photo: chytry-kurnik/small-main.jpg              #vrchni fotka  -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
+media_folder: chytry-kurnik
+thumbnail: main.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
+head_photo: small-main.jpg              #vrchni fotka  -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
 keywords: [kurník, slepice, ESP32, WiFi, RTC, web]		#Kcicova slova
 --- 
 
@@ -25,20 +26,20 @@ Díky tomuto vybavení se stává kurník z velké části autonomní.
 Do kovové konstrukce dvířek je vložen 12V motorek z auta, který zajišťuje otevíraní a zavíraní dvířek.
 
 {% include image.html
-url="chytry-kurnik/system.jpg"
+url="system.jpg"
 %}
 {% include image.html
-url="chytry-kurnik/door.jpg"
+url="door.jpg"
 %}
 
 #### Elektro
 Kurník je řízen pomocí modulu ESP32 a dvoukanálového relé, které je napojeno na motor dvířek. Aktuální čas je získáván z RTC modulu (DS3231). Dále využívám stepdown (LM2596) který snižuje napětí z 12V na 5V. Celá elektronka je napájena z 12V zdroje.
 
 {% include image.html
-url="chytry-kurnik/elektro1.jpg"
+url="elektro1.jpg"
 %}
 {% include image.html
-url="chytry-kurnik/elektro2.jpg"
+url="elektro2.jpg"
 %}
 
 #### Souhrn součástek
@@ -54,7 +55,7 @@ Důvod, proč jsem zvolil modul ESP32 je v podpoře WiFi, kterou využívám k n
 
 
 {% include image.html
-url="chytry-kurnik/www-crop.png"
+url="www-crop.png"
 %}
 
 {% include github_button.html 

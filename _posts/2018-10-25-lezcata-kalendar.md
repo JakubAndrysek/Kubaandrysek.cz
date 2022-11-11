@@ -6,7 +6,8 @@ author: Kuba Andrýsek            #authos|autor
 date: '2018-10-25 15:00:00 +1'   #date|datum vytvoření článku
 category: Lezčata               #category|kategorie -> pro novou kategorii je potřeba vytvořit stránku v "categories"
 description: Napojení sdíleného Google kalendáře pro lezecký oddíl Lezčata             #Header|nadpis
-thumbnail: lezcata/lezcata2.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
+media_folder: lezcata
+thumbnail: lezcata2.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
 --- 
 
 # Napojení sdíleného Google kalendáře pro lezecký oddíl Lezčata
@@ -15,7 +16,7 @@ thumbnail: lezcata/lezcata2.jpg              #thumbnail|titulní foto -> cesta "
 Akce se automaticky načítají ze společného Google kalendáře.
 
 {% include image-w.html
-url="lezcata/lezcata10.jpg"
+url="lezcata10.jpg"
 w="60%"
 %}
 
@@ -27,7 +28,7 @@ w="60%"
 - přiložené dokumenty
 
 {% include image-w.html
-url="lezcata/lezcata6.jpg"
+url="lezcata6.jpg"
 w="60%"
 %}
 

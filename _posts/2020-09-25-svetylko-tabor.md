@@ -6,8 +6,9 @@ author: Kuba Andrýsek            #authos|autor
 date: '2020-09-25 11:00:00 +1'   #date|datum vytvoření článku
 category: Helceletka               #category|kategorie -> pro novou kategorii je potřeba vytvořit stránku v "categories"
 description: Návrh nočního světýlka na táborové dílny pro DDM Helceletka             #Header|nadpis
-thumbnail: svetylko-tabor/main2.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
-head_photo: svetylko-tabor/head.jpg              #vrchni fotka  -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
+media_folder: svetylko-tabor
+thumbnail: main2.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
+head_photo: head.jpg              #vrchni fotka  -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
 keywords: [led, svetylko, helceletka, robotarna, preklizka, laser]		#Kcicova slova
 --- 
 
@@ -16,10 +17,10 @@ keywords: [led, svetylko, helceletka, robotarna, preklizka, laser]		#Kcicova slo
 O letních prázdninách pořádá [DDM Helceletka](https://helceletka.cz/) příměstské tábory na kterých si děti vyzkouší aktivity z různých odvětví. Naše pobočka [Robotárna](http://helceletka.cz/robotarna/) měla za úkol vytvořit také nějakou aktivitu kterou by si děti na táborech vyzkoušely. Finálním návrhem se tedy stalo noční světýlko "Pozdrav z tábora", které si letos na táborech vytvořilo přes 50 dětí.
 
 {% include image.html
-url="svetylko-tabor/build.jpg"
+url="build.jpg"
 %}
 {% include image.html
-url="svetylko-tabor/led.jpg"
+url="led.jpg"
 %}
 
 ## Konstrukce
@@ -27,16 +28,16 @@ Noční světýlko vychází z dřívějšího projektu [Vánoční betlém]({{ 
 
 
 {% include image.html
-url="svetylko-tabor/construction.jpg"
+url="construction.jpg"
 %}
 {% include image.html
-url="svetylko-tabor/laser.jpg"
+url="laser.jpg"
 %}
 
 
 {% include image.html
-url="svetylko-tabor/battery.jpg"
+url="battery.jpg"
 %}
 {% include image.html
-url="svetylko-tabor/light.jpg"
+url="light.jpg"
 %}
