@@ -29,9 +29,5 @@ media_folder: ../page/vybaveni/apple
     %}
       </div>
       <div class="col-6">
-        {% include image-w.html
-        url="setup.jpg"
-        width="100%"
-        %}
       </div>
 </div>

@@ -1,3 +1,7 @@
-<a style="text-decoration: none;" href="{{ site.url }}{{ site.baseurl }}/assets/blog/{{ page.media_folder }}/{{ include.url }}"  data-fancybox="gallery" data-caption="{{ include.description }}">
-	<img class="gallery standart" src="{{ site.url }}{{ site.baseurl }}/assets/blog/{{ page.media_folder }}/{{ include.url }}" alt="{{ include.description }}" width="48%" />
-</a>
+{%
+picture
+half-width
+/assets/blog/{{ page.media_folder }}/{{ include.url }}
+--alt {{ include.description }}
+--link /assets/blog/{{ page.media_folder }}/{{ include.url }}
+%}

@@ -22,12 +22,19 @@ image: profile.png
             <div class="row">
                 {% for post in paginator.posts %}
                 <div class="card blog-post">
-
-                    <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}">
-                        <img class="card-img-top"
-                             src="{{site.url}}{{site.baseurl}}/assets/blog/{{ post.media_folder }}/{{ post.thumbnail }}"
-                             alt="{{ post.title }}">
-                    </a>
+<!--                    <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}">-->
+<!--                        <img class="card-img-top"-->
+<!--                             src="{{site.url}}{{site.baseurl}}/assets/blog/{{ post.media_folder }}/{{ post.thumbnail }}"-->
+<!--                             alt="{{ post.title }}">-->
+<!--                    </a>-->
+                    {%
+                    picture
+                    blog-post
+                    /assets/blog/{{ post.media_folder }}/{{ post.thumbnail }}
+                    --alt {{ include.description }}
+                    --link {{ post.url | prepend: site.baseurl }}
+                    --class card-img-top
+                    %}
                     <div class="card-body center">
                         <h4 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}"
                                                   data-disqus-identifier="{{ post.url }}">{{ post.title }}</a></h4>

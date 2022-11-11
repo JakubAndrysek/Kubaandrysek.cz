@@ -32,6 +32,7 @@ group :jekyll_plugins do
     gem 'jekyll-menus', git: 'https://github.com/forestryio/jekyll-menus'
     gem 'jekyll-algolia', '~> 1.6'
     gem 'jekyll-target-blank'
+    gem 'jekyll_picture_tag', '~> 2.0'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

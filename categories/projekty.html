@@ -4,7 +4,6 @@ title: Moje projekty
 permalink: /projekty/
 image: assets/page/projekty/projekty.png
 ---
- 
 
 <h1>  {{ page.title }} </h1>
 
@@ -13,9 +12,17 @@ image: assets/page/projekty/projekty.png
     <!--PROJECT-->
     <div class="card blog-post">
       <!--THUMBNAIL-->
-      <a href="{{ site.categories[projekt][0].url }}" data-disqus-identifier="{{ post.url }}" >
-        <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/blog/{{ site.categories[projekt][0].media_folder }}/{{ site.categories[projekt][0].thumbnail }}">
-      </a>
+<!--      <a href="{{ site.categories[projekt][0].url }}" data-disqus-identifier="{{ post.url }}" >-->
+<!--        <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/blog/{{ site.categories[projekt][0].media_folder }}/{{ site.categories[projekt][0].thumbnail }}">-->
+<!--      </a>-->
+        {%
+        picture
+        blog-post
+        /assets/blog/{{ site.categories[projekt][0].media_folder }}/{{ site.categories[projekt][0].thumbnail }}
+        --alt {{ include.description }}
+        --link {{ site.categories[projekt][0].url }}
+        --class card-img-top
+        %}
       <!--TITLE-->
       <div class="card-body center">
         <!--TITLE-->

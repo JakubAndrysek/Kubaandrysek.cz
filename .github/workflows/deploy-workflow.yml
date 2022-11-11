@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Install libvips
+      run: sudo apt install libvips libvips-dev
     - name: Deploy Jekyll Site
       uses: sujaykundu777/jekyll-deploy-action@1.0.3
       env:

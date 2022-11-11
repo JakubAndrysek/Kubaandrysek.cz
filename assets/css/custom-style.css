@@ -33,7 +33,7 @@ ul{
     padding-top: 70%;
     position: relative;
 }
-   
+
 .iframe-container iframe {
     border: 0;
     height: 100%;
@@ -51,7 +51,7 @@ ul{
         width: 100%;
     }
     .iframe-container {
-        padding-top: 150%;    
+        padding-top: 150%;
     }
     .hide-small{
         display: none;
@@ -150,14 +150,14 @@ a.nav-link.nav-hover:hover {
 }
 
 a.nav-link.nav-hover.active {
-    color: #f69801 !important; 
+    color: #f69801 !important;
     /* text-decoration: underline; */
 }
 
 .zoom:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
+    transform: scale(1.1);
   }
 
 

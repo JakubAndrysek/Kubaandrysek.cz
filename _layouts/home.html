@@ -124,9 +124,17 @@ layout: default
                 {% for projekt in site.projects limit:2 %}
                     <!--PROJECT-->
                     <div class="card blog-post">
-                      <a href="{{ site.categories[projekt][0].url }}" data-disqus-identifier="{{ post.url }}" >
-                        <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/blog/{{ site.categories[projekt][0].folder }}/{{ site.categories[projekt][0].media_folder }}/{{ site.categories[projekt][0].thumbnail }}">
-                      </a>
+                        {%
+                        picture
+                        blog-post
+                        /assets/blog/{{ site.categories[projekt][0].folder }}/{{ site.categories[projekt][0].media_folder }}/{{ site.categories[projekt][0].thumbnail }}
+                        --alt {{ include.description }}
+                        --class card-img-top
+                        --link {{ site.categories[projekt][0].url }}
+                        %}
+<!--                      <a href="{{ site.categories[projekt][0].url }}" data-disqus-identifier="{{ post.url }}" >-->
+<!--                        <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/blog/{{ site.categories[projekt][0].folder }}/{{ site.categories[projekt][0].media_folder }}/{{ site.categories[projekt][0].thumbnail }}">-->
+<!--                      </a>-->
                       <div class="card-body center">
                         <h4 class="card-title">{{projekt}}</h4>
                           <h6 class="card-subtitle mb-2 ">{{ site.categories[projekt][0].description }}</h6>

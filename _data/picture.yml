@@ -1,0 +1,29 @@
+media_queries:
+  full_width: 'min-width: 901px'
+  tablet: 'min-width: 601px'
+  mobile: 'max-width: 600px'
+
+presets:
+  default:
+    formats: [original]
+    widths: [400, 800, 1200, 1600]
+    link_source: true
+    attributes:
+      a: 'data-fancybox="gallery"'
+      img: 'class="img-fluid"'
+
+  half-width:
+    formats: [original]
+    widths: [400, 800, 1200, 1600]
+    link_source: true
+    attributes:
+      a: 'data-fancybox="gallery"'
+      img: 'img: width="48%" class="standart"'
+      picture: 'class="gallery"'
+
+  blog-post:
+    formats: [original]
+    widths: [ 400, 800, 1200, 1600 ]
+    link_source: true
+    attributes:
+      img: 'class="img-fluid"'
