@@ -1,0 +1,26 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-6">
+			<a style="text-decoration: none;"
+			   href="{{ site.url }}{{ site.baseurl }}/assets/blog/{{ page.media_folder }}/{{ include.url1 }}"
+			   data-fancybox="gallery"
+			   data-caption="<div class='alert alert-success alert-boxes' role='alert'>{{ include.description1 }}</div>
+			">
+				<img class="gallery standart" src="{{ site.url }}{{ site.baseurl }}/assets/blog/{{ page.media_folder }}-small/{{ include.url1 }}" alt="{{ include.description1 }}"/>
+			</a>
+			<p class="text-center">{{ include.description1 }}</p>
+		</div>
+		<div class="col-lg-6">
+			{% if include.url2 %}
+			<a style="text-decoration: none;"
+			   href="{{ site.url }}{{ site.baseurl }}/assets/blog/{{ page.media_folder }}/{{ include.url2 }}"
+			   data-fancybox="gallery"
+			   data-caption="<div class='alert alert-success alert-boxes' role='alert'>{{ include.description2 }}</div>
+			">
+				<img class="gallery standart" src="{{ site.url }}{{ site.baseurl }}/assets/blog/{{ page.media_folder }}-small/{{ include.url2 }}" alt="{{ include.description2 }}"/>
+			</a>
+			<p class="text-center boxes-description">{{ include.description2 }}</p>
+			{% endif %}
+		</div>
+	</div>
+</div>

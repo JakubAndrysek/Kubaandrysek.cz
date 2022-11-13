@@ -51,7 +51,7 @@ ul{
         width: 100%;
     }
     .iframe-container {
-        padding-top: 150%;    
+        padding-top: 150%;
     }
     .hide-small{
         display: none;
@@ -150,14 +150,14 @@ a.nav-link.nav-hover:hover {
 }
 
 a.nav-link.nav-hover.active {
-    color: #f69801 !important; 
+    color: #f69801 !important;
     /* text-decoration: underline; */
 }
 
 .zoom:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
+    transform: scale(1.1);
   }
 
 
@@ -209,4 +209,14 @@ a.nav-link.nav-hover.active {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/*.boxes-description {*/
+/*    font-size: 1.25rem;*/
+/*}*/
+
+.alert-boxes {
+    font-size: 20px;
+    max-width: 90%;
+    margin: 0 auto;
 }
