@@ -22,6 +22,13 @@ media_folder: ../page/vybaveni/apple
     - [SKHD](https://github.com/koekeishiya/skhd)
 - Keyboard layouts
   - [Czech BB and English BB](https://github.com/borekb/macos-keyboards) by [borekb](https://github.com/borekb)
+- Must have apps
+  - [MonitorContro](https://github.com/MonitorControl/MonitorControl) - Control your external monitor brightness
+  - [Maccy](https://maccy.app/) - clipboard manager
+  - [DeepL](https://www.deepl.com/translator) - translator
+  - [ForkLift](https://binarynights.com/) - file manager
+  - [Stats](https://github.com/exelban/stats) - system monitor
+  - [Parallel](https://www.parallels.com/) - virtual machine
       " | markdownify }}
     {% include github_button.html
     url="https://github.com/JakubAndrysek/dotfiles-M1"
@@ -30,7 +37,7 @@ media_folder: ../page/vybaveni/apple
       </div>
       <div class="col-6">
         {% include image-w.html
-        url="setup.jpg"
+        url="setup-apple.jpg"
         width="100%"
         %}
       </div>
