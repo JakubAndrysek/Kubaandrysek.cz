@@ -15,7 +15,7 @@ keywords: [macbook, linux, i3, homebrew]
 
 
 ## Windows
-Od malička jsem vyrostl na operačním systému Windows od spojení společnosti Microsoft.
+Od malička jsem vyrostl na operačním systému Windows od společnosti Microsoft.
 Jelikož jsem se primárně věnoval 3D modelování a 3D grafice, byl pro mě tento systém ideální.
 Aplikace jako SolidWorks a Fusion 360 zde měly nativní podporu a byly velmi rychlé. 
 Další nástroje jako InkScape, Gimp a Adobe Photoshop byly také dostupné.
@@ -23,9 +23,9 @@ Další nástroje jako InkScape, Gimp a Adobe Photoshop byly také dostupné.
 ## Linux - Kubuntu
 V roce 2020 jsem si pořídil ThinkPad E15 a rozhodl jsem se na něm rozjet dual-boot.
 Tedy provozovat Windows a Linux současně na jednom počítači. 
-Touto dobou jsem také začínal pracovat na své [středoškolské odborně činnosti]() a potřeboval jsem vyvíjet softwarové pro mikrokontroléry, webovou aplikaci v PHP a také přidružený server v Pythonu.
-Prvotní nástup nebyl jednoduchý, člověk musí nakonfigurovat kompletní vývojový server a to pro úplněhoho nováčka není jednoduché.
-S tímto prvotním problémem jsem se však popral a neučil se s Linuxem pracovat na denní bázi.
+Touto dobou jsem také začínal pracovat na své [středoškolské odborně činnosti]() a potřeboval jsem vyvíjet software pro mikrokontroléry, webové aplikace a další přidružené nástroje.
+Prvotní nástup nebyl jednoduchý, člověk musí nakonfigurovat kompletní vývojový server a to pro úplného nováčka není jednoduché.
+S tímto prvotním problémem jsem se však popral a naučil se s Linuxem pracovat na denní bázi.
 
 Kariéru 3D designéra jsem postupně skončil a začal se věnovat programování.
 To mi také umožnilo odpoutat se od systému Windows úplně a začít pracovat pouze na Linuxu.
