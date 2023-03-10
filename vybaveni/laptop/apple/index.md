@@ -23,7 +23,7 @@ media_folder: ../page/vybaveni/apple
 - Keyboard layouts
   - [Czech BB and English BB](https://github.com/borekb/macos-keyboards) by [borekb](https://github.com/borekb)
 - Must have apps
-  - [MonitorContro](https://github.com/MonitorControl/MonitorControl) - Control your external monitor brightness
+  - [MonitorControl](https://github.com/MonitorControl/MonitorControl) - Control your external monitor brightness
   - [Maccy](https://maccy.app/) - clipboard manager
   - [DeepL](https://www.deepl.com/translator) - translator
   - [ForkLift](https://binarynights.com/) - file manager

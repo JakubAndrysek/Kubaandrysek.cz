@@ -22,22 +22,19 @@ gem "puma"
 
 # Plugins
 group :jekyll_plugins do
-    gem 'devlopr', '~> 0.4.5'
     gem 'jgd', '~> 1.12'
-    gem 'jekyll-feed', '~> 0.13.0'
+    gem 'jekyll-feed', '~> 0.17.0'
     gem 'jekyll-paginate', '~> 1.1.0'
     gem 'jekyll-gist', '~> 1.5.0'
-    gem 'jekyll-seo-tag', '~> 2.6.1'
+    gem 'jekyll-seo-tag'
     gem 'jekyll-sitemap', '~> 1.4.0'
     gem 'jekyll-menus', git: 'https://github.com/forestryio/jekyll-menus'
-    gem 'jekyll-algolia', '~> 1.6'
-    gem 'jekyll-target-blank'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo", "~> 2.0"
   gem "tzinfo-data"
 end
 

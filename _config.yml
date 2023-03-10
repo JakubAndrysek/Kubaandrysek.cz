@@ -21,6 +21,11 @@ author_website_url: "https://kubaandrysek.cz"
 
 # image 100x100px
 author_work_experiences:
+  - designation: Organizace největší robotické soutěže v ČR - Robotiáda (technická část)
+    date: únor 2023
+    description: Na soutěži jsem měl pozici technického garanta.
+    company_logo: work_experiences/robotiada23.jpg
+    company_url: https://robotiada.cz
   - designation: Prezentace SOČ na mezinárodní konferenci v Lucembursku
     date: říjen 2022
     description: Konference Expo-Sciences Luxembourg 2022
@@ -78,6 +83,7 @@ author_education_details:
 show_author_project_details: true
 projects:
   - IoT
+  - MacBook
   - Rotex
   - Helceletka
   - Programování
@@ -150,16 +156,15 @@ permalink: /:year/:month/:day/:title
 #   permalinks:
 #     category: '/category/:name/'
 
-theme: devlopr
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-algolia
   - jekyll-menus
-  - jekyll-target-blank
+#  - jekyll-target-blank
 
 
 # Exclude from processing.

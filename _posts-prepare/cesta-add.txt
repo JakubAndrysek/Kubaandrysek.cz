@@ -1,0 +1,2 @@
+## Mac
+Více o přechodu na Mac v [samostatném článku]({{ site.baseurl }}{% post_url 2022-12-16-prechod-na-mac %})

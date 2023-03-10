@@ -5,8 +5,8 @@ author: Kuba Andrýsek
 date: '2022-12-15 13:00:00 +1'
 category: MacBook
 description: Od Windows přes různé distribuce Linuxu až po vývoj na Macu  
-media_folder: vyvojarska-cesta
-thumbnail: virtualni-ukazka.jpg
+media_folder: moje-vyvojarska-cesta
+thumbnail: moje-vyvojarska-cesta.jpg
 head_photo: 
 keywords: [macbook, linux, i3, homebrew]
 ---
@@ -23,7 +23,7 @@ Další nástroje jako InkScape, Gimp a Adobe Photoshop byly také dostupné.
 ## Linux - Kubuntu
 V roce 2020 jsem si pořídil ThinkPad E15 a rozhodl jsem se na něm rozjet dual-boot.
 Tedy provozovat Windows a Linux současně na jednom počítači. 
-Touto dobou jsem také začínal pracovat na své [středoškolské odborně činnosti]() a potřeboval jsem vyvíjet software pro mikrokontroléry, webové aplikace a další přidružené nástroje.
+Touto dobou jsem také začínal pracovat na své [středoškolské odborně činnosti]({{ site.baseurl }}{% post_url 2021-06-12-soc-integrace %}) a potřeboval jsem vyvíjet software pro mikrokontroléry, webové aplikace a další přidružené nástroje.
 Prvotní nástup nebyl jednoduchý, člověk musí nakonfigurovat kompletní vývojový server a to pro úplného nováčka není jednoduché.
 S tímto prvotním problémem jsem se však popral a naučil se s Linuxem pracovat na denní bázi.
 
@@ -54,11 +54,9 @@ Jedna z variant byla, pořízení jiného notebooku, na kterém bych mohl snad L
 Druhá z varianta, která mě lákala ještě víc, byla přechod na MacBook.
 
 ## Mac
-Více o přechodu na Mac v samostatném článku.
-
+Více o přechodu na Mac v samostatném článku který právě připravuji.
 
 {% include button_generic.html
-url="/vyvojarska-cesta"
-text="Přechod na Mac"
-icon="fa fa-apple"
+url="/vybaveni/laptop/linux/"
+text="Původní setup s Linuxem"
 %}
