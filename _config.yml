@@ -131,7 +131,7 @@ kramdown:
   input: GFM
 
 # google analytics
-google_analytics: UA-149505692-2
+google_analytics: G-FN9VPDQRLV
 
 # pagination of posts
 paginate: 6
