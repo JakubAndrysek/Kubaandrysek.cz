@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Moje projekty
-permalink: /projekty/
-image: assets/page/projekty/projekty.png
+title: My projects
+redirect_from: /projekty/
+image: assets/page/projects/projects.png
 ---
 
 
@@ -23,7 +23,10 @@ image: assets/page/projekty/projekty.png
         <ul class="card-text">
             {% for post in site.categories[projekt] limit:5 %}
               {% if post.private != true %}
-                <li class="card-subtitle mb-2 "><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+                <li class="card-subtitle mb-2 "><a href="{{ site.baseurl }}{{ post.url }}">
+                    {{post.title}}
+                    {% include language_identifier.html lang=post.lang %}
+                </a></li>
               {% endif %}
             {% endfor %}
         </ul>

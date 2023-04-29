@@ -9,6 +9,7 @@ media_folder: domaci-panel
 thumbnail: virtualni-ukazka.jpg
 head_photo: 
 keywords: [e-paper, domaci-panel, skola-online, esp32, c++, python, server, api, jizdni-rady, predpoved-pocasi, alojz]
+lang: cs
 ---
 
 # {{ page.title }}

@@ -1,8 +1,11 @@
 <article class="card" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="card-header">
         <!-- <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1> -->
-        <h4 class="post-meta">{{ page.title }}</h4>
-        <p class="post-summary">Napsal : {% if page.author %}
+        <h4 class="post-meta">
+            {{ page.title }}
+            {% include language_identifier.html lang=page.lang %}
+        </h4>
+        <p class="post-summary">Written by : {% if page.author %}
             <a style="text-decoration: none;" href="{{ site.url}}{{site.baseurl}}/">
                 <img src="{{site.url}}{{site.baseurl}}/assets/img/profile_small.png" class="author-profile-img zoom">
             </a>
@@ -13,7 +16,7 @@
             </a>
             {% endif %}
             <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: "%d. %m. %Y" }}</time>
-            
+
         </p>
         <span class="disqus-comment-count" data-disqus-identifier="{{ page.url }}"></span>
         <!-- <div class="post-categories">

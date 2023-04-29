@@ -10,13 +10,13 @@ layout: default
                 <img src="{{site.url}}{{site.baseurl}}/assets/img/profile.png" class="profile-img">
             </div>
             <h1 class="profile-name"> {{ site.title }}</h1>
-             <p class="profile-bio"> {{ site.subtitle }}</p>
+            <p class="profile-bio"> {{ site.subtitle }}</p>
             {% if site.github_username_sponsor %}
-                {%- include github_sponsor_button.html -%}
+            {%- include github_sponsor_button.html -%}
             {% endif %}
 
             {% if site.github_username %}
-              {%- include github_follow_button.html -%}
+            {%- include github_follow_button.html -%}
             {% endif %}
 
             <p class="profile-links">
@@ -72,14 +72,15 @@ layout: default
                 {% endif %}
 
                 {% if site.scholar_username %}
-                <a class="social-link" target="_blank" href="https://scholar.google.cz/citations?user={{ site.scholar_username }}">
+                <a class="social-link" target="_blank"
+                   href="https://scholar.google.cz/citations?user={{ site.scholar_username }}">
                     <i class="fas fa-book fa-2x zoom"></i>
                 </a>
                 {% endif %}
             </p>
 
             {% if site.author_location %}
-            <h6>  <i class="fas fa-map-marker-alt "></i> {{ site.author_location }}</h6>
+            <h6><i class="fas fa-map-marker-alt "></i> {{ site.author_location_cs }}</h6>
             {% endif %}
 
             {% if site.author_email %}
@@ -87,7 +88,7 @@ layout: default
             {% endif %}
 
             {% if site.author_website_url %}
-            <h6> <i class="fas fa-link "></i> {{ site.author_website_url }} </h6>
+            <h6><i class="fas fa-link "></i> {{ site.author_website_url }} </h6>
             {% endif %}
 
 
@@ -115,48 +116,57 @@ layout: default
 
 
     </div>
-     <div class="col-lg-7">
+    <div class="col-lg-7">
         <div class="card">
-            <h1 class="card-title">About me</h1>
-            Thispage {{ page.lang }} {{ page.title }}
+            <h1 class="card-title">O mně</h1>
             {% include about_me.html %}
         </div>
 
         {% if site.show_author_project_details == true %}
         <div id="author_projects" class="card">
-            <h1 class="card-title">Projects</h1>
-            <br />
-<!--            <div class="container row">-->
+            <h1 class="card-title">Projekty</h1>
+            <br/>
+            <!--            <div class="container row">-->
             <div class="card-deck">
                 {% for projekt in site.projects limit:2 %}
-                    <!--PROJECT-->
-                    <div class="card blog-post">
-                      <a href="{{ site.categories[projekt][0].url }}" data-disqus-identifier="{{ post.url }}" >
-                        <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/blog/{{ site.categories[projekt][0].folder }}/{{ site.categories[projekt][0].media_folder }}/{{ site.categories[projekt][0].thumbnail }}">
-                      </a>
-                      <div class="card-body center">
+                <!--PROJECT-->
+                <div class="card blog-post">
+                    <a href="{{ site.categories[projekt][0].url }}" data-disqus-identifier="{{ post.url }}">
+                        <img class="card-img-top"
+                             src="{{site.url}}{{site.baseurl}}/assets/blog/{{ site.categories[projekt][0].folder }}/{{ site.categories[projekt][0].media_folder }}/{{ site.categories[projekt][0].thumbnail }}">
+                    </a>
+                    <div class="card-body center">
                         <h4 class="card-title">{{projekt}}</h4>
-                          <h6 class="card-subtitle mb-2 ">{{ site.categories[projekt][0].description }}</h6>
-                      </div>
+                        <h6 class="card-subtitle mb-2 ">
+                            {{ site.categories[projekt][0].description }}
+                            {% assign site_lang = site.categories[projekt][0].lang %}
+                            {% include language_identifier.html lang=site_lang %}
+                        </h6>
                     </div>
+                </div>
                 {% endfor %}
             </div>
             <div class="text-center">
-                <a href="/projekty"><button class="orange-button">Další projekty</button></a>
-                <a href="/blog"><button class="orange-button">Blog</button></a>
+                <a href="/projects">
+                    <button class="orange-button">Další projekty</button>
+                </a>
+                <a href="/blog">
+                    <button class="orange-button">Blog</button>
+                </a>
             </div>
         </div>
         {% endif %}
 
         <div class="card">
-            <h1 class="card-title">Achievements </h1>
-            <br />
+            <h1 class="card-title"> Úspěchy </h1>
+            <br/>
             <div class="work-experiences">
                 {% for exp in site.author_work_experiences %}
                 <br>
                 <div class="row">
                     <div class="col-md-2">
-                        <img src="{{site.url}}{{site.baseurl}}/assets/page/home/{{ exp.company_logo }}" class="company-logo" />
+                        <img src="{{site.url}}{{site.baseurl}}/assets/page/home/{{ exp.company_logo }}"
+                             class="company-logo"/>
                     </div>
                     <div class="col-md-6">
                         <h4 class="experience-title"> {{ exp.designation }}</h4>
@@ -172,21 +182,23 @@ layout: default
                 {% for exp in site.author_work_experiences_more %}
                 <br>
                 <div class="row">
-                     <div class="col-md-2">
-                         <img src="{{site.url}}{{site.baseurl}}/assets/page/home/{{ exp.company_logo }}" class="company-logo" />
-                     </div>
-                     <div class="col-md-6">
-                         <h4 class="experience-title"> {{ exp.designation }}</h4>
-                         <h6 class="experience-info"> {{ exp.date}}</h6>
-                         <p class="experience-desc"> {{ exp.description }} </p>
-                         <p><a href="{{exp.company_url}}" target="_blank">{{ exp.company_url}}</a></p>
-                     </div>
+                    <div class="col-md-2">
+                        <img src="{{site.url}}{{site.baseurl}}/assets/page/home/{{ exp.company_logo }}"
+                             class="company-logo"/>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="experience-title"> {{ exp.designation }}</h4>
+                        <h6 class="experience-info"> {{ exp.date}}</h6>
+                        <p class="experience-desc"> {{ exp.description }} </p>
+                        <p><a href="{{exp.company_url}}" target="_blank">{{ exp.company_url}}</a></p>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
 
             <div id="work-experiences-more-btn" class="text-center">
-                <button class="orange-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <button class="orange-button" type="button" data-toggle="collapse" data-target="#collapseExample"
+                        aria-expanded="false" aria-controls="collapseExample">
                     Zobrazit více / méně
                 </button>
             </div>
@@ -195,23 +207,24 @@ layout: default
 
         {% if site.show_author_education_details == true %}
         <div class="card">
-            <h1 class="card-title">Education</h1>
-            <br />
+            <h1 class="card-title">Studium</h1>
+            <br/>
             {% for detail in site.author_education_details %}
             {% if detail.visibility == true %}
             <div class="row">
-                    <div class="col-md-2">
-                        <img src="{{site.url}}{{site.baseurl}}/assets/page/home/{{ detail.college_logo}}" class="company-logo" />
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="experience-title"> {{detail.college_degree }}</h4>
-                        <h6 class="experience-info">{{detail.college_name}}</h6>
-                        <p class="experience-desc"> {{detail.description}} </p>
-                        <p><a href="{{detail.college_url}}" target="_blank">{{ detail.college_url}}</a></p>
-                    </div>
+                <div class="col-md-2">
+                    <img src="{{site.url}}{{site.baseurl}}/assets/page/home/{{ detail.college_logo}}"
+                         class="company-logo"/>
                 </div>
-                {% endif %}
-                {% endfor %}
+                <div class="col-md-6">
+                    <h4 class="experience-title"> {{detail.college_degree }}</h4>
+                    <h6 class="experience-info">{{detail.college_name}}</h6>
+                    <p class="experience-desc"> {{detail.description}} </p>
+                    <p><a href="{{detail.college_url}}" target="_blank">{{ detail.college_url}}</a></p>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
         </div>
         {% endif %}
 

@@ -1,5 +1,4 @@
 ---
-                                 #url se určuje podle názvu
 title: Noční světýlko - pozdrav z tábora #title|název článku   
 layout: post                     #layout|šablona
 author: Kuba Andrýsek            #authos|autor
@@ -10,7 +9,8 @@ media_folder: svetylko-tabor
 thumbnail: main2.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
 head_photo: head.jpg              #vrchni fotka  -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
 keywords: [led, svetylko, helceletka, robotarna, preklizka, laser]		#Kcicova slova
---- 
+lang: cs
+---
 
 ## Návrh nočního světýlka na táborové dílny pro DDM Helceletka
 

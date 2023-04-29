@@ -1,5 +1,4 @@
 ---
-                                 #url se určuje podle názvu
 title: Vánoční stromeček #title|název článku   
 layout: post                     #layout|šablona
 author: Kuba Andrýsek            #authos|autor
@@ -8,7 +7,8 @@ category: Laser               #category|kategorie -> pro novou kategorii je pot�
 description: Podklady a návod na výrobu stromečku pro DDM Helceletka             #Header|nadpis
 media_folder: stromecek
 thumbnail: Tma2.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
---- 
+lang: cs
+---
 
 # Podklady a návod na výrobu stromečku pro DDM Helceletka
 

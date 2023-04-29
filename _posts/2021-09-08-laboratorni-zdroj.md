@@ -9,6 +9,7 @@ media_folder: pd-zdroj
 thumbnail: thumbnail.jpg
 head_photo:
 keywords: [power-suply, powerbank]
+lang: cs
 ---
 
 # {{ page.title }}

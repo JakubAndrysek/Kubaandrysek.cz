@@ -1,5 +1,4 @@
 ---
-                                 #url se určuje podle názvu
 title: Chytrý kurník #title|název článku   
 layout: post                     #layout|šablona
 author: Kuba Andrýsek            #authos|autor
@@ -10,7 +9,8 @@ media_folder: chytry-kurnik
 thumbnail: main.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
 head_photo: small-main.jpg              #vrchni fotka  -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
 keywords: [kurník, slepice, ESP32, WiFi, RTC, web]		#Kcicova slova
---- 
+lang: cs
+---
 
 # Chytrý kurník, aneb už máme WiFi i v kurníku
 

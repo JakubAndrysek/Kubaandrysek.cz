@@ -1,9 +1,9 @@
 ---
 title: Příslušenství k počítači
 menus: header
-layout: vybaveni
+layout: equipment
 image: assets/blog/blog.png
-media_folder: ../page/vybaveni/linux
+media_folder: ../page/equipment/linux
 ---
 
 <div class="row">
@@ -18,6 +18,6 @@ media_folder: ../page/vybaveni/linux
       " | markdownify }}
       </div>
       <div class="col-6">
-        
+
       </div>
 </div>

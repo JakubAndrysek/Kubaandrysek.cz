@@ -1,9 +1,9 @@
 ---
 title: Moje oblíbené aplikace
 menus: header
-layout: vybaveni
+layout: equipment
 image: assets/blog/blog.png
-media_folder: ../page/vybaveni/software
+media_folder: ../page/equipment/software
 ---
 
 <div class="row">

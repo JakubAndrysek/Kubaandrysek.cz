@@ -1,9 +1,9 @@
 ---
 title: Apple
 menus: header
-layout: vybaveni
+layout: equipment
 image: assets/blog/blog.png
-media_folder: ../page/vybaveni/apple
+media_folder: ../page/equipment/apple
 ---
 
 <div class="row">

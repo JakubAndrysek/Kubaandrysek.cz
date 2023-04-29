@@ -1,9 +1,9 @@
 ---
 title: Můj notebook a příslušenství
 menus: header
-layout: vybaveni
+layout: equipment
 image: assets/blog/blog.png
-media_folder: ../page/vybaveni/linux
+media_folder: ../page/equipment/linux
 ---
 
 <div class="row">
@@ -40,7 +40,7 @@ media_folder: ../page/vybaveni/linux
     url="czech-coder.png"
     width="100%"
     description="czech-coder"
-    %}  
+    %}
     {% include image-w.html
     url="czech-programming.png"
     description="czech-programming"

@@ -4,42 +4,39 @@
 
         <div class="row">
 
-                <nav class="navbar navbar-expand-lg fixed-top navbar-dark " id="topNav">
-                <!-- <a class="navbar-brand" href="#">{{site.title}}</a> -->
-                <a class="navbar-brand hide-header" href="/">
-                    <img class="zoom" src="{{ site.url}}{{site.baseurl}}/assets/page/home/home.png" alt="logo" style="width:0px;visibility: hidden;">
-                    <img class="zoom" src="{{ site.url}}{{site.baseurl}}/assets/img/header_kuba.png" alt="logo" style="width:120px;">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark " id="topNav">
+                <a class="navbar-brand hide-header" href="{{ site.url}}{{site.baseurl}}/">
+                    <img class="zoom" src="{{ site.url}}{{site.baseurl}}/assets/page/home/home.png" alt="logo"
+                         style="width:0px;visibility: hidden;">
+                    <img class="zoom" src="{{ site.url}}{{site.baseurl}}/assets/img/header_kuba.png" alt="logo"
+                         style="width:120px;">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <!-- <a class="navbar-brand" href="/">{{site.title}}</a> -->
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                          {% for i in site.urls %}
-                            <li class="nav-item">
-                                <a class="nav-link nav-hover zoom {% if i.url == page.url %}active{% endif %} " href="{{ site.url}}{{site.baseurl}}{{ i.url }}">{{ i.text }}</a>
-                            </li>
-                            {% endfor %}
-                            
-
-                        </ul>
-
-
-                    </div>
-                       <!-- <ul class="nav justify-content-end">
-                           <li class="nav-item">
-                                    <a class="nav-link" id="search-icon" href="{{ site.url}}{{site.baseurl}}/search/"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </li> -->
-<!--                                 
-                            <li class="nav-item">
-                                        <input class="nav-link switch" id="theme-toggle" onclick="modeSwitcher() "type="checkbox" name="checkbox" >
-                                </li>
-                             </ul> -->
+                <!-- <a class="navbar-brand" href="/">{{site.title}}</a> -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        {% for i in site.urls %}
+                        <li class="nav-item">
+                            <a class="nav-link nav-hover zoom {% if i.url == page.url %}active{% endif %} "
+                               href="{{ site.url}}{{site.baseurl}}{{ i.url }}">{{ i.text }}</a>
+                        </li>
+                        {% endfor %}
+                        <li class="nav-item">
+                            {% if page.url == "/" %}
+                            <h4><a class="nav-link nav-hover zoom btn btn-warning"
+                                   href="{{ site.url}}{{site.baseurl}}/cs">🇨🇿</a></h4>
+                            {% elsif page.url == "/cs" %}
+                            <h4><a class="nav-link nav-hover zoom btn btn-primary"
+                                   href="{{ site.url}}{{site.baseurl}}/">🇺🇸</a></h4>
+                            {% endif %}
+                        </li>
+                    </ul>
+                </div>
             </nav>
-
         </div>
-
-     </div>
+    </div>
 </header>

@@ -1,35 +1,35 @@
 ---
 title: Můj notebook a příslušenství
 menus: header
-layout: vybaveni
+layout: equipment
 image: assets/blog/blog.png
-media_folder: assets/page/vybaveni
+media_folder: assets/page/equipment
 ---
 
 <div class="card-deck justify-content-center">
 
-{% include vybaveniCard.html
+{% include equipmentCard.html
 image="apple/icon.png"
 image-src="https://www.flaticon.com/free-icon/apple_518714"
 title="MacBook Pro"
-description="Aktuální počítač"
-href="/vybaveni/laptop/apple"
+description="Current computer"
+href="/equipment/laptop/apple"
 %}
 
-{% include vybaveniCard.html
+{% include equipmentCard.html
 image="linux/icon.png"
 image-src="https://www.flaticon.com/free-icon/linux_226772"
 title="Linux notebook"
-description="Minulý počítač s Linuxem (Ubuntu)"
-href="/vybaveni/laptop/linux"
+description="Previous computer with Linux (Ubuntu)"
+href="/equipment/laptop/linux"
 %}
 
-{% include vybaveniCard.html
+{% include equipmentCard.html
 image="prislusenstvi/icon.png"
 image-src="://www.flaticon.com/free-icon/keyboard_2993768"
-title="Příslušenství"
-description="Monitor, klávesnice, myš"
-href="/vybaveni/laptop/prislusenstvi"
+title="Accessories"
+description="Monitor, keyboard, mouse"
+href="/equipment/laptop/prislusenstvi"
 %}
 
 </div>

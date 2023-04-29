@@ -1,5 +1,4 @@
 ---
-                                 #url se určuje podle názvu
 title: Kalendář pro Lezcata.cz #title|název článku   
 layout: post                     #layout|šablona
 author: Kuba Andrýsek            #authos|autor
@@ -8,7 +7,8 @@ category: Lezčata               #category|kategorie -> pro novou kategorii je p
 description: Napojení sdíleného Google kalendáře pro lezecký oddíl Lezčata             #Header|nadpis
 media_folder: lezcata
 thumbnail: lezcata2.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
---- 
+lang: cs
+---
 
 # Napojení sdíleného Google kalendáře pro lezecký oddíl Lezčata
 ## [www.lezcata.cz](http://lezcata.cz/)

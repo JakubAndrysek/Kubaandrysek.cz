@@ -1,80 +1,82 @@
 title: Kuba Andrýsek
 
-url: "https://kubaandrysek.cz"
+# url: "https://kubaandrysek.cz"
+url: "localhost:4000"
 #url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Projekty
-      url: /projekty/
+    - text: Projects
+      url: /projects/
     - text: Blog
       url: /blog/
-    - text: Vybavení
-      url: /vybaveni/
-    - text: Kontakt
-      url : /kontakt/
+    - text: Equipment
+      url: /equipment/
+    - text: Contact
+      url : /contact/
 
 author: Kuba Andrýsek
 author_email: "email@kubaandrysek.cz"
-author_location: Česká republika - Brno
+author_location: Czech Republic - Brno
+author_location_cs: Česká republika - Brno
 author_website_url: "https://kubaandrysek.cz"
 
 # image 100x100px
 author_work_experiences:
-  - designation: Organizace největší robotické soutěže v ČR - Robotiáda (technická část)
-    date: únor 2023
-    description: Na soutěži jsem měl pozici technického garanta.
+  - designation: Organization of the Largest Robotics Competition in Czech Republic - Robotiáda (Technical Part)
+    date: February 2023
+    description: I held the position of technical guarantor at the competition.
     company_logo: work_experiences/robotiada23.jpg
     company_url: https://robotiada.cz
-  - designation: Prezentace SOČ na mezinárodní konferenci v Lucembursku
-    date: říjen 2022
-    description: Konference Expo-Sciences Luxembourg 2022
+  - designation: Presentation of SOČ at an international conference in Luxembourg
+    date: October 2022
+    description: Expo-Sciences Luxembourg 2022 Conference
     company_logo: work_experiences/lucembursko.jpg
     company_url: https://stisk.online/a/iib4p/davat-sanci-mladym-lidem-ma-smysl-rika-student-jakub-andrysek
-  - designation: Cena Nadačního fondu Jaroslava Heyrovského
-    date: prosinec 2021
-    description: Za úspěšnou práci SOČ
+  - designation: Jaroslav Heyrovský Foundation Fund Award
+    date: December 2021
+    description: For successful work on SOČ
     company_logo: work_experiences/heyrovsky.png
     company_url: http://www.njh.cz/laureati-2021
-  - designation: Nominace na mezinárodní soutěže
-    date: září 2021
-    description: Kategorie elektro
+  - designation: Nominated for international competitions
+    date: September 2021
+    description: Electro category
     company_logo: work_experiences/mezinarod.jpg
-  - designation: 1. místo v krajském kole SOČ
-    date: květen 2021
-    description: Kategorie elektro
+  - designation: 1st place in the regional round of SOČ
+    date: May 2021
+    description: Electro category
     company_logo: work_experiences/soc21.png
     company_url: https://youtu.be/9FYx6xdfJAo
 
-
 author_work_experiences_more:
-  - designation: 4. místo v celostátním kole SOČ
-    date: červen 2021
-    description: Kategorie elektro
+  - designation: 4th place in the national round of SOČ
+    date: June 2021
+    description: Electro category
     company_logo: work_experiences/pletarna.png
     company_url: https://youtu.be/9FYx6xdfJAo
-  - designation: 2. místo v krajském kole soutěže programování mikročipů
-    date: duben 2021
+  - designation: 2nd place in the regional round of microchip programming competition
+    date: April 2021
     description:
     company_logo: work_experiences/mikro21.png
     company_url:
-  - designation: Dvě první místa na robotickém dni v Praze
-    date: červen 2019
-    description: V kategoriích Toy Cleanup a Roadside Assistance
+  - designation: Two first places at Robotics Day in Prague
+    date: June 2019
+    description: In Toy Cleanup and Roadside Assistance categories
     company_logo: work_experiences/medvedice.jpg
     company_url: http://robotickyden.cz
-  - designation: 1. místo v programátorské soutěži
-    date: březen 2019
+  - designation: 1st place in programming competition
+    date: March 2019
     description:
     company_logo: work_experiences/code.png
     company_url:
+
 
 show_author_education_details: true
 author_education_details:
   - college_logo: education/gvid.jpg
     college_name: Gymnázium Brno, Vídeňská, příspěvková organizace
     college_url: http://www.gvid.cz
-    description: Šestileté gymnázium zaměřené na informatiku
+    description: Six-year grammar school focused on informatics
     visibility: true
 
 # Setup for page projekty-categories
@@ -164,6 +166,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-menus
+  - jekyll-redirect-from
 #  - jekyll-target-blank
 
 
