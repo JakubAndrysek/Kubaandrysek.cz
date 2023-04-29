@@ -90,3 +90,6 @@ text="Dotfiles pro Mac M1"
 * https://saurabhs.org/macos-tips
 * https://github.com/artginzburg/sudo-touchid
 * https://github.com/lima-vm/lima
+
+CZ: Programovací úkoly během studia na GVIDu
+EN: My programming school projects during my studies at GVID 

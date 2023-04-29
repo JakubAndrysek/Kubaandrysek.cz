@@ -4,7 +4,7 @@ title: Moje projekty
 permalink: /projekty/
 image: assets/page/projekty/projekty.png
 ---
- 
+
 
 <h1>  {{ page.title }} </h1>
 
@@ -22,11 +22,13 @@ image: assets/page/projekty/projekty.png
         <h4 class="card-title">{{projekt}}</h4>
         <ul class="card-text">
             {% for post in site.categories[projekt] limit:5 %}
-              <li class="card-subtitle mb-2 "><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+              {% if post.private != true %}
+                <li class="card-subtitle mb-2 "><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+              {% endif %}
             {% endfor %}
         </ul>
         <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>-->
       </div>
-    </div>     
+    </div>
 {% endfor %}
 </div>

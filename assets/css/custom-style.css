@@ -220,3 +220,10 @@ a.nav-link.nav-hover.active {
     max-width: 90%;
     margin: 0 auto;
 }
+
+codersrank-timeline {
+    --tooltip-text-color: #ffffff;
+    --tooltip-bg-color: #444;
+    --timeline-item-bg-color: #414b73;
+    --tooltip-logo-size: 100px;
+}
