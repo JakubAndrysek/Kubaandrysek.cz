@@ -1,7 +1,6 @@
 title: Kuba Andrýsek
 
-# url: "https://kubaandrysek.cz"
-url: "localhost:4000"
+url: "https://kubaandrysek.cz"
 #url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
@@ -24,49 +23,74 @@ author_website_url: "https://kubaandrysek.cz"
 # image 100x100px
 author_work_experiences:
   - designation: Organization of the Largest Robotics Competition in Czech Republic - Robotiáda (Technical Part)
+    designation_cs: Organizace největší robotické soutěže v ČR - Robotiáda (technická část)
     date: February 2023
+    date_cs: Únor 2023
     description: I held the position of technical guarantor at the competition.
+    description_cs: Na soutěži jsem měl pozici technického garanta.
     company_logo: work_experiences/robotiada23.jpg
     company_url: https://robotiada.cz
   - designation: Presentation of SOČ at an international conference in Luxembourg
+    designation_cs: Prezentace SOČ na mezinárodní konferenci v Lucembursku
     date: October 2022
+    date_cs: Říjen 2022
     description: Expo-Sciences Luxembourg 2022 Conference
+    description_cs: Expo-Sciences Luxembourg 2022 Konference
     company_logo: work_experiences/lucembursko.jpg
     company_url: https://stisk.online/a/iib4p/davat-sanci-mladym-lidem-ma-smysl-rika-student-jakub-andrysek
   - designation: Jaroslav Heyrovský Foundation Fund Award
+    designation_cs: Cena Nadačního fondu Jaroslava Heyrovského
     date: December 2021
+    date_cs: Prosinec 2021
     description: For successful work on SOČ
+    description_cs: Za úspěšnou práci na SOČ
     company_logo: work_experiences/heyrovsky.png
     company_url: http://www.njh.cz/laureati-2021
   - designation: Nominated for international competitions
+    designation_cs: Nominace na mezinárodní soutěže
     date: September 2021
+    date_cs: Září 2021
     description: Electro category
+    description_cs: Kategorie elektro
     company_logo: work_experiences/mezinarod.jpg
   - designation: 1st place in the regional round of SOČ
+    designation_cs: 1. místo v krajském kole SOČ
     date: May 2021
+    date_cs: Květen 2021
     description: Electro category
+    description_cs: Kategorie elektro
     company_logo: work_experiences/soc21.png
     company_url: https://youtu.be/9FYx6xdfJAo
 
 author_work_experiences_more:
   - designation: 4th place in the national round of SOČ
+    designation_cs: 4. místo v celostátním kole SOČ
     date: June 2021
+    date_cs: Červen 2021
     description: Electro category
+    description_cs: Kategorie elektro
     company_logo: work_experiences/pletarna.png
     company_url: https://youtu.be/9FYx6xdfJAo
   - designation: 2nd place in the regional round of microchip programming competition
+    designation_cs: 2. místo v krajském kole soutěže v programování mikročipů
     date: April 2021
-    description:
+    date_cs: Duben 2021
+    description: Microchip Programming category
+    description_cs: Kategorie programování mikročipů
     company_logo: work_experiences/mikro21.png
     company_url:
   - designation: Two first places at Robotics Day in Prague
+    designation_cs: Dvě první místa na Robotickém dni v Praze
     date: June 2019
+    date_cs: Červen 2019
     description: In Toy Cleanup and Roadside Assistance categories
+    description_cs: V kategoriích Toy Cleanup a Roadside Assistance
     company_logo: work_experiences/medvedice.jpg
     company_url: http://robotickyden.cz
   - designation: 1st place in programming competition
+    designation_cs: 1. místo v soutěži v programování
     date: March 2019
-    description:
+    date_cs: Březen 2019
     company_logo: work_experiences/code.png
     company_url:
 
@@ -74,9 +98,11 @@ author_work_experiences_more:
 show_author_education_details: true
 author_education_details:
   - college_logo: education/gvid.jpg
-    college_name: Gymnázium Brno, Vídeňská, příspěvková organizace
+    college_name: Gymnázium Brno, Vídeňská
+    college_name_cs: Gymnázium Brno, Vídeňská, příspěvková organizace
     college_url: http://www.gvid.cz
     description: Six-year grammar school focused on informatics
+    description_cs: Šestileté gymnázium zaměřené na informatiku
     visibility: true
 
 # Setup for page projekty-categories
