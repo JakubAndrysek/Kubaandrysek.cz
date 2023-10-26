@@ -104,6 +104,13 @@ author_education_details:
     description: Six-year grammar school focused on informatics
     description_cs: Šestileté gymnázium zaměřené na informatiku
     visibility: true
+  - college_logo: education/fi-muni.jpg
+    college_name: Faculty of Informatics, Masaryk University
+    college_name_cs: Fakulta informatiky, Masarykova univerzita
+    college_url: https://www.fi.muni.cz
+    description: Bachelor's degree in Programming and development
+    description_cs: Bakalářský obor Programování a vývoj aplikací
+    visibility: true
 
 # Setup for page projekty-categories
 # Which categories are displayed on page projekty
