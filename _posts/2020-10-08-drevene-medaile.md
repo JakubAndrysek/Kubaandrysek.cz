@@ -1,5 +1,4 @@
 ---
-                                 #url se určuje podle názvu
 title: Dřevěné medaile #title|název článku   
 layout: post                     #layout|šablona
 author: Kuba Andrýsek            #authos|autor
@@ -10,7 +9,8 @@ media_folder: drevene-medaile
 thumbnail: main.jpg              #thumbnail|titulní foto -> cesta "/img/blog/**nazev-clanku/Kolo.png**"
 head_photo: head2.jpg
 keywords: [laser, zavody, ctcup, preklizka, drevo, lezcata]
---- 
+lang: cs
+---
 
 # Výroba dřevěných gravírovaných medailí na laseru
 

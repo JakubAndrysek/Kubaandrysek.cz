@@ -1,12 +1,18 @@
 
 <div class="col-lg-3 hide-small">
     <div class="card ">
-        <div class="card-header"> O mě </div>
+        <div class="card-header"> About me </div>
         <div class="card-body">
             <!-- Your Bio -->
             <p class="author_bio"> {%- include about_me.html -%}</p>
 
+            {% if site.github_username_sponsor %}
+            {%- include github_sponsor_button.html -%}
+            {% endif %}
+
+            {% if site.github_username %}
             {%- include github_follow_button.html -%}
+            {% endif %}
         </div>
     </div>    
 </div>

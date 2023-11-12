@@ -9,6 +9,7 @@ media_folder: ukoly-helceletka
 thumbnail: thumbnail.png
 head_photo: head.png
 keywords: [helceletka, airtable, wordpress, databáze, plugin, úkoly]
+lang: cs
 --- 
 
 # Zobrazování osobních úkolů z Airtablu

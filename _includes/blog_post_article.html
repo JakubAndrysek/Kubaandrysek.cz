@@ -1,8 +1,11 @@
 <article class="card" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="card-header">
         <!-- <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1> -->
-        <h4 class="post-meta">{{ page.title }}</h4>
-        <p class="post-summary">Napsal : {% if page.author %}
+        <h4 class="post-meta">
+            {{ page.title }}
+            {% include language_identifier.html lang=page.lang %}
+        </h4>
+        <p class="post-summary">Written by : {% if page.author %}
             <a style="text-decoration: none;" href="{{ site.url}}{{site.baseurl}}/">
                 <img src="{{site.url}}{{site.baseurl}}/assets/img/profile_small.png" class="author-profile-img zoom">
             </a>
@@ -13,7 +16,13 @@
             </a>
             {% endif %}
             <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: "%d. %m. %Y" }}</time>
-            
+            &nbsp;&nbsp;
+            <a href="https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url={{ site.url }}{{ site.baseurl }}{{ page.url }}">
+                <img
+                    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&amp;count_bg=%23F69801&amp;title_bg=%23555555&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=%F0%9F%91%80&amp;edge_flat=true"
+                />
+            </a>
+
         </p>
         <span class="disqus-comment-count" data-disqus-identifier="{{ page.url }}"></span>
         <!-- <div class="post-categories">
@@ -38,5 +47,5 @@
         {{ content }}
     </div>
 
-    <div id="disqus_thread"></div>
+    {%- include blog_post_comments.html -%}
 </article>

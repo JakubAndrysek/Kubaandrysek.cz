@@ -10,13 +10,9 @@ layout: default
 
 <div class="row" id="blog-post-container">
 
-        <div class="col-lg-8 offset-md-2">
-
-           {%- include blog_post_article.html -%}
-
-           {%- include blog_post_comments.html -%}
-        </div>
-
+    <div class="col-lg-8 offset-md-2">
+        {%- include blog_post_article.html -%}
+    </div>
 
 
 </div> <!-- End of row-->
@@ -24,25 +20,31 @@ layout: default
 <div class="row">
     <div class="col-md-6">
         <div class="card">
-            <div class="card-header"> O mě </div>
+            <div class="card-header">About me</div>
             <div class="card-body">
                 <p class="author_bio">{% include about_me.html %}</p>
-                {%- include github_star_button.html -%}
+                {% if site.github_username_sponsor %}
+                {%- include github_sponsor_button.html -%}
+                {% endif %}
+
+                {% if site.github_username %}
+                {%- include github_follow_button.html -%}
+                {% endif %}
             </div>
         </div>
     </div>
     <div class="col-md-6">
         <div class="card">
-            <div class="card-header">Užitečné odkazy </div>
+            <div class="card-header">Useful links</div>
             <div class="card-body text-dark">
                 {% for i in site.urls %}
-                <li >
+                <li>
                     <a href="{{ site.url}}{{site.baseurl}}{{ i.url }}">{{ i.text }}</a>
                 </li>
-            {% endfor %}
+                {% endfor %}
             </div>
         </div>
-   </div>
+    </div>
 
 </div>
 

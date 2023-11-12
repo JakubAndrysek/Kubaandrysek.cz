@@ -9,7 +9,8 @@ media_folder: soc-integrace
 thumbnail: main2.png
 head_photo: head-t2.png
 keywords: [soc, iot, rotexvysocina, esp32, ponozky, monitoring]
---- 
+lang: cs
+---
 
 # SOČ Integrace do průmyslu 4.0
 

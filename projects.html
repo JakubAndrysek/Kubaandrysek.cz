@@ -1,0 +1,37 @@
+---
+layout: page
+title: My projects
+redirect_from: /projekty/
+image: assets/page/projects/projects.png
+---
+
+
+<h1>  {{ page.title }} </h1>
+
+<div class="container row">
+{% for projekt in site.projects %}
+    <!--PROJECT-->
+    <div class="card blog-post">
+      <!--THUMBNAIL-->
+      <a href="{{ site.categories[projekt][0].url }}" data-disqus-identifier="{{ post.url }}" >
+        <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/blog/{{ site.categories[projekt][0].media_folder }}/{{ site.categories[projekt][0].thumbnail }}">
+      </a>
+      <!--TITLE-->
+      <div class="card-body center">
+        <!--TITLE-->
+        <h4 class="card-title">{{projekt}}</h4>
+        <ul class="card-text">
+            {% for post in site.categories[projekt] limit:5 %}
+              {% if post.private != true %}
+                <li class="card-subtitle mb-2 "><a href="{{ site.baseurl }}{{ post.url }}">
+                    {{post.title}}
+                    {% include language_identifier.html lang=post.lang %}
+                </a></li>
+              {% endif %}
+            {% endfor %}
+        </ul>
+        <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>-->
+      </div>
+    </div>
+{% endfor %}
+</div>

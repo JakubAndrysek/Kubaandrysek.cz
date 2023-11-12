@@ -9,6 +9,7 @@ media_folder: space-mouse
 thumbnail: Mouse-robot.jpg
 head_photo: ""
 keywords: [space-mouse, python, mouse, 3d-mouse]
+lang: cs
 ---
 
 # {{ page.title }}
