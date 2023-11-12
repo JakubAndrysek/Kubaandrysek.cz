@@ -16,6 +16,12 @@
             </a>
             {% endif %}
             <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: "%d. %m. %Y" }}</time>
+            &nbsp;&nbsp;
+            <a href="https://hits.seeyoufarm.com/api/count/graph/dailyhits.svg?url={{ site.url }}{{ site.baseurl }}{{ page.url }}">
+                <img
+                    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&amp;count_bg=%23F69801&amp;title_bg=%23555555&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=%F0%9F%91%80&amp;edge_flat=true"
+                />
+            </a>
 
         </p>
         <span class="disqus-comment-count" data-disqus-identifier="{{ page.url }}"></span>
