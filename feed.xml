@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://kubaandrysek.cz/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kubaandrysek.cz/" rel="alternate" type="text/html" /><updated>2024-03-19T19:21:29+00:00</updated><id>https://kubaandrysek.cz/feed.xml</id><title type="html">Kuba Andrýsek</title><author><name>Kuba Andrýsek</name></author><entry xml:lang="cs"><title type="html">Moje vývojářská cesta</title><link href="https://kubaandrysek.cz/2022/12/15/moje-vyvojarska-cesta" rel="alternate" type="text/html" title="Moje vývojářská cesta" /><published>2022-12-15T13:00:00+00:00</published><updated>2022-12-15T13:00:00+00:00</updated><id>https://kubaandrysek.cz/2022/12/15/moje-vyvojarska-cesta</id><content type="html" xml:base="https://kubaandrysek.cz/2022/12/15/moje-vyvojarska-cesta"><![CDATA[<h1 id="moje-vývojářská-cesta">Moje vývojářská cesta</h1>
+
+<h2 id="windows">Windows</h2>
+<p>Od malička jsem vyrostl na operačním systému Windows od společnosti Microsoft.
+Jelikož jsem se primárně věnoval 3D modelování a 3D grafice, byl pro mě tento systém ideální.
+Aplikace jako SolidWorks a Fusion 360 zde měly nativní podporu a byly velmi rychlé.
+Další nástroje jako InkScape, Gimp a Adobe Photoshop byly také dostupné.</p>
+
+<h2 id="linux---kubuntu">Linux - Kubuntu</h2>
+<p>V roce 2020 jsem si pořídil ThinkPad E15 a rozhodl jsem se na něm rozjet dual-boot.
+Tedy provozovat Windows a Linux současně na jednom počítači.
+Touto dobou jsem také začínal pracovat na své <a href="/2021/06/12/soc-integrace">středoškolské odborně činnosti</a> a potřeboval jsem vyvíjet software pro mikrokontroléry, webové aplikace a další přidružené nástroje.
+Prvotní nástup nebyl jednoduchý, člověk musí nakonfigurovat kompletní vývojový server a to pro úplného nováčka není jednoduché.
+S tímto prvotním problémem jsem se však popral a naučil se s Linuxem pracovat na denní bázi.</p>
+
+<p>Kariéru 3D designéra jsem postupně skončil a začal se věnovat programování.
+To mi také umožnilo odpoutat se od systému Windows úplně a začít pracovat pouze na Linuxu.
+Člověk s touto platformou má obrovskou volnost, která je v některých ohledech úžasná, ale mnohdy také velmi nepříjemná.</p>
+
+<p>Základní distribuce KDE Neon postavená na Ubuntu nabízela všechny potřebné nástroje a umožnila mi celkem bezproblémový přechod na Linux.
+Většina nástrojů se dala používat skrze terminál, ale také prostřednictvím výborného grafického prostředí KDE.</p>
+
+<h2 id="linux---i3-wm">Linux - i3 WM</h2>
+<p>Po roce používání jsem přemýšlel o další změně.
+Tentokrát šlo pouze o změnu grafického prostředí.
+Jakožto student rád zkouším nové věci, a tak jsem na svůj notebook přidal grafické prostředí i3.
+Toto prostředí je velmi minimalistické a je určeno pro ty, kteří chtějí pracovat s počítačem co nejefektivněji.
+Více o tomto prostředí si můžete přečíst na <a href="https://i3wm.org/">oficiální stránce</a>.
+Pro jednoduchou start jsem využil projekt <a href="https://regolith-desktop.com/">Regolith Desktop Environment</a>, který i3 WM přidává výchozí konfiguraci a několik užitečných nástrojů.</p>
+
+<h2 id="linux---problémy">Linux - Problémy</h2>
+<p>Po několika celkem bezproblémových měsících používání mi začal počítač po náhodném čase zamrzat.
+Zkoušel jsem aktualizovat systém, kompletně zakázat externí grafickou kartu, ale nic z toho nepomohlo.
+Zasekávání celého systému, kterému pomohlo pouze “tvrdé zabítí” počítače, bylo velmi nedeterministické a nebylo možné předvídat, kdy k dalšímu záseku dojde.
+Problém jsem zkoušel řešit i přeinstalací systému, ale to také nepomohlo.</p>
+
+<h2 id="linux--mac">Linux → Mac</h2>
+<p>Po mnoha desítkách hodin strávených snahou o vyřešení problému jsem začal hledat alternativu.
+Jedna z variant byla, pořízení jiného notebooku, na kterém bych mohl snad Linux používat bez problémů.
+Druhá z varianta, která mě lákala ještě víc, byla přechod na MacBook.</p>
+
+<h2 id="mac">Mac</h2>
+<p>Více o přechodu na Mac v samostatném článku který právě připravuji.</p>
+
+<!--Icons: https://fontawesome.com/v5/search -->
+
+<!--url="https://www.printables.com"-->
+<!--text="3D model krabičky"-->
+<!--icon="fas fa-box-open"-->
+
+<p><a href="/equipment/laptop/linux/" target="_blank">
+    <button class="orange-button zoom"><i class=" fa-lg" style="margin-right:8px;">​</i>​Původní setup s Linuxem
+    </button>
+</a></p>]]></content><author><name>Kuba Andrýsek</name></author><category term="MacBook" /><summary type="html"><![CDATA[Od Windows přes různé distribuce Linuxu až po vývoj na Macu]]></summary></entry><entry xml:lang="cs"><title type="html">E-paper domácí panel</title><link href="https://kubaandrysek.cz/2022/10/04/domaci-panel" rel="alternate" type="text/html" title="E-paper domácí panel" /><published>2022-10-04T18:00:00+00:00</published><updated>2022-10-04T18:00:00+00:00</updated><id>https://kubaandrysek.cz/2022/10/04/domaci-panel</id><content type="html" xml:base="https://kubaandrysek.cz/2022/10/04/domaci-panel"><![CDATA[<h1 id="e-paper-domácí-panel">E-paper domácí panel</h1>
+
+<p>Cílem tohoto projektu je navrhnout a vytvořit univerzální domácí panel.
+Hlavním úkolem tohoto panelu je zobrazovat aktuální odjezdy městské hromadné dopravy.
+Díky bezdrátovému připojení na WiFi a komunikací se zpracujícím servery je displej schopen zobrazit jakékoliv údaje.</p>
+
+<p>Součásti systému:</p>
+
+<ul>
+  <li><a href="https://jakubandrysek.github.io/E-paper-board-ESP32/aplikace/mhd">odjezdy MHD - Brno</a></li>
+  <li><a href="https://jakubandrysek.github.io/E-paper-board-ESP32/aplikace/sol-znamky">nejnovější známky ze školy</a></li>
+  <li><a href="https://jakubandrysek.github.io/E-paper-board-ESP32/aplikace/alojz">předpověď počasí Alojz</a></li>
+  <li><a href="https://jakubandrysek.github.io/E-paper-board-ESP32/aplikace/fablab">využití strojů ve FabLabu</a></li>
+  <li><a href="https://jakubandrysek.github.io/E-paper-board-ESP32/aplikace/sol-rozvrh">aktuální školní rozvrh</a></li>
+  <li>…</li>
+</ul>
+
+<h2 id="základní-informace">Základní informace</h2>
+
+<p>Domácí panel je postaven na modulu <a href="https://github.com/Xinyuan-LilyGO/LilyGo-T5-Epaper-Series">LilyGo-T5-Epaper</a>, který tvoří velmi významnou kombinaci mezi výkonným mikrokontrolérem ESP32 a tříbarevným E-paper displejem.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/domaci-panel/appAlojz.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/domaci-panel/appAlojz.png" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/domaci-panel/ttgo-back.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/domaci-panel/ttgo-back.png" alt="" width="48%" />
+</a></p>
+
+<h2 id="aplikace">Aplikace</h2>
+
+<p>Cílem projektu je navrhnout a vyrobit univerzální domácí panel, který zajistí přehledné a rychlé zobrazování každodenních informací.</p>
+
+<h3 id="co-to-má-umět">Co to má umět</h3>
+
+<p>Řídící systém displeje by měl být univerzální a zvládat zobrazit jakákoliv data ve formátu JSON. Tento formát jsem zvolil, protože je velmi rozšířený a několik z požadovaných služeb již toto rozhraní nabízí.</p>
+
+<p>Pro zbylé webové aplikace, které nedisponují veřejným API ve formátu JSON bude nutné navrhnout malý server, který bude data z webů zpracovávat a zprostředkovávat je v použitelném formátu JSON.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/domaci-panel/alojzApp.jpeg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/domaci-panel/alojzApp.jpeg" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/domaci-panel/fablabApp.jpeg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/domaci-panel/fablabApp.jpeg" alt="" width="48%" />
+</a></p>
+
+<h2 id="aplikace-1">Aplikace</h2>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/domaci-panel/Apps-hierarchy.drawio.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery" src="https://kubaandrysek.cz/assets/blog/domaci-panel/Apps-hierarchy.drawio.png" alt="" width="" />
+</a></p>
+
+<h3 id="1-odjezdy-mhd">1. Odjezdy MHD</h3>
+
+<p>Hlavním modulem a prvotním nápadem na vytvoření tohoto projektu je aplikace na zobrazování odjezdů MHD. 
+V mém případě konkrétně v Brně - Jihomoravském kraji. 
+Tento modul vytvářím ve spolupráci s <a href="https://idsjmk.cz/">IDSJMK</a>. 
+Díky čemuž jsem získal neomezený přístup k veřejnému API na webu <a href="https://mapa.idsjmk.cz/">https://mapa.idsjmk.cz</a>.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/domaci-panel/mhd-web.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/domaci-panel/mhd-web.png" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/domaci-panel/salinaApp.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/domaci-panel/salinaApp.jpg" alt="" width="48%" />
+</a></p>
+
+<h3 id="2-fablab-now">2. FabLab now</h3>
+
+<p>Tento modul zobrazuje využití strojů ve <a href="https://www.fablabbrno.cz/">FabLabu</a>.</p>
+
+<p>FabLab Brno je otevřená digitální dílna v Brně, ve které je možné pracovat například s 3D tiskárnami, laserem, nebo s obráběcím strojem.
+Stroje jsou přístupné na uživatelské karty a během dne bývají vcelku vytížené, proto Core team FabLabu vytvořil web <a href="https://now.fablabbrno.cz/">FabLab now</a>, který zobrazuje obsazenost FabLabu a konkrétních strojů.</p>
+
+<h3 id="3-posledí-přidané-známky">3. Posledí přidané známky</h3>
+
+<p>Naše škola využívá velmi rozšířený informační systém <a href="https://www.skolaonline.cz/">Škola Online</a>.
+Pro přístup do tohoto systému je možné využít standardní webové rozhraní nebo vcelku pomalou mobilní aplikaci.</p>
+
+<p>Tato aplikace zajišťuje zobrazování nejnovějších známek ze školních systému.
+Jelikož ESP32 nezvládá přímou komunikaci s informačním systémem, stojí mezi nimi pythonní wrapper - aplikace, která získá data ze školního systému a vrátí JSON, který obsahuje pouze nejnutnější data.</p>
+
+<h3 id="4-předpověď-počasí-alojz">4. Předpověď počasí Alojz</h3>
+
+<p>Mezi další moduly patří moje oblíbená webová stránka <a href="https://alojz.cz/brno">Alojz.cz</a> od českého programátora <a href="https://filiph.net/">Filipa Hráčka</a>.
+Web Alojz získává data o počasí z norského webu <a href="https://www.yr.no/">Yr.no</a> a pomocí umělé inteligence je transformuje do českých vět. 
+Pro tento web bude nutné navrhnout webový parser na formát JSON.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/domaci-panel/sol-znamky-big.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/domaci-panel/sol-znamky-big.jpg" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/domaci-panel/solApp.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/domaci-panel/solApp.jpg" alt="" width="48%" />
+</a></p>
+
+<p><a href="https://jakubandrysek.github.io/E-paper-board-ESP32/" target="_blank"><button class="orange-button zoom"><i class="fab fa-github fa-lg " style="margin-right:8px;">​</i>​Více o projektu</button></a></p>]]></content><author><name>Kuba Andrýsek</name></author><category term="Programování" /><summary type="html"><![CDATA[Domácí panel s informacemi o počasí, jízdních řádech...]]></summary></entry><entry xml:lang="cs"><title type="html">Python knihovna pro práci s 3D myší SpaceMouse</title><link href="https://kubaandrysek.cz/2022/05/28/space-mouse" rel="alternate" type="text/html" title="Python knihovna pro práci s 3D myší SpaceMouse" /><published>2022-05-28T14:00:00+00:00</published><updated>2022-05-28T14:00:00+00:00</updated><id>https://kubaandrysek.cz/2022/05/28/space-mouse</id><content type="html" xml:base="https://kubaandrysek.cz/2022/05/28/space-mouse"><![CDATA[<h1 id="python-knihovna-pro-práci-s-3d-myší-spacemouse">Python knihovna pro práci s 3D myší SpaceMouse</h1>
+
+<p>Ovládání robotů není jednoduché, většinou se mohou pohybovat a hýbat mnoho osami.
+To se standardní herní konzolí ovládá celkem špatně, nemluvě pak o klávesnici.
+Proto jsem vytvořil multiplatformní knihovnu pro práci s 3D myší, která podporuje 6 os pohybu a disponuje několika tlačítky.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/space-mouse/Mouse-robot.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery" src="https://kubaandrysek.cz/assets/blog/space-mouse/Mouse-robot.jpg" alt="" width="" />
+</a></p>
+
+<h2 id="čtení-dat-z-myši">Čtení dat z myši</h2>
+<p>Pro komunikaci mezi knihovnou a myší je použit protokol <a href="https://en.wikipedia.org/wiki/Human_interface_device"><code class="language-plaintext highlighter-rouge">HID</code></a>.
+Moje knihovna zprcovává raw data z myši pomocí knihovny <a href="https://github.com/libusb/hidapi"><code class="language-plaintext highlighter-rouge">hidapi</code></a> ke které z Pythonu přistupuji skrze multiplatformní knihovnu <a href="https://github.com/bglopez/python-easyhid"><code class="language-plaintext highlighter-rouge">easyhid</code></a>.
+Díky tomu není nutné mít nainstalovaný originální software od firmy 3DConnexion (3DxWare).</p>
+
+<h2 id="podporované-myši">Podporované myši</h2>
+<ul>
+  <li>SpaceNavigator</li>
+  <li>SpaceMouse Pro</li>
+  <li>SpaceMouse Pro Wireless</li>
+  <li>SpaceMouse Wireless</li>
+  <li>3Dconnexion Universal Receiver</li>
+  <li>SpaceMouse Compact</li>
+  <li>SpacePilot</li>
+  <li>SpacePilot Pro</li>
+  <li><a href="https://github.com/johnhw/pyspacenavigator/issues/1">Pro přidání nové myši koukni zde</a></li>
+</ul>
+
+<h2 id="instalace">Instalace</h2>
+
+<p><a href="https://badge.fury.io/py/pyspacemouse"><img src="https://badge.fury.io/py/pyspacemouse.svg" alt="PyPI version" /></a></p>
+
+<p><code class="language-plaintext highlighter-rouge">pip install pyspacemouse</code></p>
+
+<p>Kompletní návod k instalaci je na <a href="https://github.com/JakubAndrysek/pyspacemouse#installation">GitHubu</a>.</p>
+
+<h2 id="ukázka-použití">Ukázka použití</h2>
+<p>Ukázka <code class="language-plaintext highlighter-rouge">basicExample.py</code> je dostupná na <a href="https://github.com/JakubAndrysek/pyspacemouse/blob/master/examples/basicExample.py">GitHubu</a>.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">pyspacemouse</span>
+<span class="kn">import</span> <span class="n">time</span>
+
+<span class="n">success</span> <span class="o">=</span> <span class="n">pyspacemouse</span><span class="p">.</span><span class="nf">open</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">success</span><span class="p">:</span>
+    <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="n">pyspacemouse</span><span class="p">.</span><span class="nf">read</span><span class="p">()</span>
+        <span class="nf">print</span><span class="p">(</span><span class="n">state</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">state</span><span class="p">.</span><span class="n">y</span><span class="p">,</span> <span class="n">state</span><span class="p">.</span><span class="n">z</span><span class="p">)</span>
+        <span class="n">time</span><span class="p">.</span><span class="nf">sleep</span><span class="p">(</span><span class="mf">0.01</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/JakubAndrysek/pyspacemouse" target="_blank"><button class="orange-button zoom"><i class="fab fa-github fa-lg " style="margin-right:8px;">​</i>​Zdrojové kódy a další informace</button></a></p>]]></content><author><name>Kuba Andrýsek</name></author><category term="Programování" /><summary type="html"><![CDATA[SpaceMouse 6-DOF knihovna pro řízení robotů]]></summary></entry><entry xml:lang="cs"><title type="html">Aplikace s databází dokončených produktů</title><link href="https://kubaandrysek.cz/2022/03/19/db-rotex" rel="alternate" type="text/html" title="Aplikace s databází dokončených produktů" /><published>2022-03-19T14:00:00+00:00</published><updated>2022-03-19T14:00:00+00:00</updated><id>https://kubaandrysek.cz/2022/03/19/db-rotex</id><content type="html" xml:base="https://kubaandrysek.cz/2022/03/19/db-rotex"><![CDATA[<h2 id="google-tabulky-jako-jednoduchá-databáze">Google tabulky jako jednoduchá databáze</h2>
+
+<p>Jako úložiště dat jsem zvolil Google tabulku. Jde totiž velmi jednoduše upravovat i nezkušeným uživatelem.
+Díky kontingenčním tabulkám jdou z tabulek velmi jednoduše získávat specifická data a zobrazovat je například v grafech.
+Také zde není problém se zálohou. Tabulka má nastavené automatické zálohy v přednastavený čas.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/dokoncovacka/tabulka-db.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/dokoncovacka/tabulka-db.png" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/dokoncovacka/tabulka-rotex.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/dokoncovacka/tabulka-rotex.png" alt="" width="48%" />
+</a></p>
+
+<h2 id="webová-aplikace-v-reactu">Webová aplikace v Reactu</h2>
+
+<p>Webová aplikace je vytvořena v JavaScriptové knihovně React. Ta zajišťuje veškeré vykreslování a zpracování vstupů.
+Pro komunikaci s Google tabulkami využívám knihovnu <a href="https://theoephraim.github.io/node-google-spreadsheet/">google-spreadsheet</a></p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/dokoncovacka/app.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery" src="https://kubaandrysek.cz/assets/blog/dokoncovacka/app.png" alt="" width="" />
+</a></p>
+
+<h3 id="zobrazování-dat-v-tabulkách">Zobrazování dat v tabulkách</h3>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/dokoncovacka/app-list.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/dokoncovacka/app-list.png" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/dokoncovacka/app-table.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/dokoncovacka/app-table.png" alt="" width="48%" />
+</a></p>
+
+<h3 id="interaktivní-výběrová-menu">Interaktivní výběrová menu</h3>
+
+<p>Pro snadný a rychlý výběr parametrů se menu neustále přizpůsobují danému výběru</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/dokoncovacka/interakt-kod.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/dokoncovacka/interakt-kod.png" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/dokoncovacka/interakt-velikost.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/dokoncovacka/interakt-velikost.png" alt="" width="48%" />
+</a></p>
+
+<h2 id="nasazení-do-provozu">Nasazení do provozu</h2>
+
+<p>Webová stránka běží uvnitř prohlížeče na dotykovém tabletu s Windows 10.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/dokoncovacka/tablet-bok.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/dokoncovacka/tablet-bok.jpg" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/dokoncovacka/tablet-app.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/dokoncovacka/tablet-app.jpg" alt="" width="48%" />
+</a></p>]]></content><author><name>Kuba Andrýsek</name></author><category term="Rotex" /><summary type="html"><![CDATA[Tvorba webové aplikace pro zaznamenávání dokončených ponožek propojená s Google tabulkami]]></summary></entry><entry xml:lang="cs"><title type="html">Plánování úkolů pro DDM Helceletova</title><link href="https://kubaandrysek.cz/2021/12/07/ukoly-helceletka" rel="alternate" type="text/html" title="Plánování úkolů pro DDM Helceletova" /><published>2021-12-07T11:00:00+00:00</published><updated>2021-12-07T11:00:00+00:00</updated><id>https://kubaandrysek.cz/2021/12/07/ukoly-helceletka</id><content type="html" xml:base="https://kubaandrysek.cz/2021/12/07/ukoly-helceletka"><![CDATA[<h1 id="zobrazování-osobních-úkolů-z-airtablu">Zobrazování osobních úkolů z Airtablu</h1>
+
+<p>Rozdělování úkolů v dnešní době už velmi často bývá zprostředkováváno skrze mobilní nebo webové aplikace.
+V tomto projektu jsem navrhoval databázi v Airtablu, která slouží k zaznamenávání úkolů pro zaměstnance.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/ukoly-helceletka/airtable1.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery" src="https://kubaandrysek.cz/assets/blog/ukoly-helceletka/airtable1.png" alt="" width="" />
+</a></p>
+
+<h2 id="plugin-do-wordpressu">Plugin do WordPressu</h2>
+
+<p>Pro přehledné zobrazení úkolů jsem vytvořil plugin do redakčního systému WordPress.
+V něm zaměstnanci přehledně vidí své úkoly a datum, do kdy má být úkol vypracován.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/ukoly-helceletka/houby.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery" src="https://kubaandrysek.cz/assets/blog/ukoly-helceletka/houby.png" alt="" width="" />
+</a></p>
+
+<h2 id="hodnocení-úkolů">Hodnocení úkolů</h2>
+
+<p>Součástí pluginu je také jednoduché hodnoceni v podobě barevného obrázku houby.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/ukoly-helceletka/houby-hodnoceni.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery" src="https://kubaandrysek.cz/assets/blog/ukoly-helceletka/houby-hodnoceni.png" alt="" width="" />
+</a></p>]]></content><author><name>Kuba Andrýsek</name></author><category term="Helceletka" /><summary type="html"><![CDATA[Návrh Airtable databáze s úkoly pro zaměstnance a tvorba zobrazovacího pluginu do WordPressu]]></summary></entry><entry xml:lang="cs"><title type="html">Miniaturní laboratorní zdroj s podporou Power Delivery</title><link href="https://kubaandrysek.cz/2021/09/08/laboratorni-zdroj" rel="alternate" type="text/html" title="Miniaturní laboratorní zdroj s podporou Power Delivery" /><published>2021-09-08T14:00:00+00:00</published><updated>2021-09-08T14:00:00+00:00</updated><id>https://kubaandrysek.cz/2021/09/08/laboratorni-zdroj</id><content type="html" xml:base="https://kubaandrysek.cz/2021/09/08/laboratorni-zdroj"><![CDATA[<h1 id="miniaturní-laboratorní-zdroj-s-podporou-power-delivery">Miniaturní laboratorní zdroj s podporou Power Delivery</h1>
+
+<p>Při domácím kutění potřebuji každou chvíli napájet různé elektronické součástky.
+Většinou to jsou nějaké mikrokontroléry, kterým stačí nízké napětí a malý proud.
+V takových případech se mi nechce vytahovat velký laboratorní zdroj.
+Proto jsem vytvořil malý <a href="https://en.wikipedia.org/wiki/USB_hardware#USB_Power_Delivery">Power Delivery</a> zdroj, ze kterého jsem schopen vytáhnout až 30V a 4A.</p>
+
+<h2 id="vstup">Vstup</h2>
+
+<p>Aby se zdroj dal jednoduše napájet ze standardních USB C nabiječek, používám <a href="https://www.aliexpress.com/wholesale?SearchText=USB-C+PD+Trigger+Board+Module">USB-C PD Trigger Board</a>.
+Mám verzi, která si na vstupu vyžádá 20 V, to v dnešní době podporují i některé power banky.</p>
+
+<p>Druhou možností pro napájení je využít modelářskou baterku s konektorem XT60.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/pd-zdroj/conector.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/pd-zdroj/conector.jpg" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/pd-zdroj/inside.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/pd-zdroj/inside.jpg" alt="" width="48%" />
+</a></p>
+
+<h2 id="výstup">Výstup</h2>
+
+<p>Pro regulaci výstupu jsem koupil Buck Booster <a href="https://www.aliexpress.com/wholesale?SearchText=zk-4kx">ZK-4KX</a>.
+Ten na vstupu bere napětí 5 - 30 V a na výstupu vytáhne 0 - 30 V.
+Maximální výkon celého zařízení je 35W.
+Pomocí potenciometru lze nastavit výstupní napětí a proud i různá omezení.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/pd-zdroj/front.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/pd-zdroj/front.jpg" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/pd-zdroj/side.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/pd-zdroj/side.jpg" alt="" width="48%" />
+</a></p>
+
+<h2 id="krabička">Krabička</h2>
+
+<p>Zdroj jsem umístil do krabičky, kterou jsem si navrhl a vyrobil na 3D tiskárně.
+Model krabičky jsem nahrál na Printables</p>
+
+<iframe src="https://gmail246066.autodesk360.com/shares/public/SH9285eQTcf875d3c5395dba8c71c061a7f5?mode=embed" width="100%" height="500" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/pd-zdroj/box.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/pd-zdroj/box.jpg" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/pd-zdroj/box-side.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/pd-zdroj/box-side.jpg" alt="" width="48%" />
+</a></p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/pd-zdroj/open.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/pd-zdroj/open.jpg" alt="" width="48%" />
+</a><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/pd-zdroj/down.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/pd-zdroj/down.jpg" alt="" width="48%" />
+</a></p>
+
+<!--Icons: https://fontawesome.com/v5/search -->
+
+<!--url="https://www.printables.com"-->
+<!--text="3D model krabičky"-->
+<!--icon="fas fa-box-open"-->
+
+<p><a href="https://www.printables.com/cs/model/296168-power-delivery-mini-power-supply" target="_blank">
+    <button class="orange-button zoom"><i class="fas fa-box-open fa-lg" style="margin-right:8px;">​</i>​3D model krabičky
+    </button>
+</a></p>]]></content><author><name>Kuba Andrýsek</name></author><category term="Elektro" /><summary type="html"><![CDATA[Přenosný laboratorní zdroj s výstupním napětím až 30 V a proudem až 4 A]]></summary></entry><entry xml:lang="cs"><title type="html">Integrace do průmyslu 4.0</title><link href="https://kubaandrysek.cz/2021/06/12/soc-integrace" rel="alternate" type="text/html" title="Integrace do průmyslu 4.0" /><published>2021-06-12T16:00:00+00:00</published><updated>2021-06-12T16:00:00+00:00</updated><id>https://kubaandrysek.cz/2021/06/12/soc-integrace</id><content type="html" xml:base="https://kubaandrysek.cz/2021/06/12/soc-integrace"><![CDATA[<h1 id="soč-integrace-do-průmyslu-40">SOČ Integrace do průmyslu 4.0</h1>
+
+<p>SOČ neboli středoškolská odborná činnost je celostátní soutěž odborných prací talentovaných studentů českých středních škol.</p>
+
+<h2 id="popis-práce">Popis práce</h2>
+
+<p>Tato práce představuje ucelený systém pro automatický monitoring průmyslové výroby a jeho nasazení do praxe.
+Systém byl navrhován jako univerzální platforma pro monitoring výrobních strojů, s primárním zaměřením na pletací stroje.</p>
+
+<p>Cílem této práce bylo navrhnout ucelený systém, který dokáže:</p>
+
+<ul>
+  <li>automaticky počítat upletené ponožky</li>
+  <li>on-line hlásit poruchu na stroji a zjišťovat celkovou poruchovost strojů</li>
+  <li>porovnávat výkonnost jednotlivých pracovních směn</li>
+  <li>monitorovat průběh výroby</li>
+  <li>nahradit část monotónní práce operátora</li>
+  <li>zrychlit a zefektivnit výrobu</li>
+  <li>snížit chybovost</li>
+</ul>
+
+<p>Systém se skládá ze senzorové části, serveru a podpůrného serveru.
+Senzorová část je postavená na vlastní senzorové desce s mikrokontrolérem s barevným displejem. Senzor je připojen k pletacímu stroji a odesílá naměřená data.
+Server přijímá  data ze senzorů, zajišťuje jejich zpracování a následné zobrazení uživateli.
+Podpůrný server se stará o aktualizaci a o kontrolu správného chodu senzorů.</p>
+
+<p>Systém byl navrhován jako univerzální platforma pro monitoring výrobních strojů s primárním zaměřením na pletací stroje. 
+Samotné nasazení tohoto systému proběhlo ve firmě ROTEX Vysočina s.r.o. zaměřující se na pletení ponožek. 
+Ve firmě jsem nasadil senzory na 10 pletacích strojů, které zde běží již 6 měsíců. 
+Za tuto dobu systém zaznamenal přes sto padesát tisíc upletených ponožek.
+Tento systém ve firmě ROTEX monitoruje počet upletených ponožek, dobu stání jednotlivých strojů, ale také porovnává jednotlivé pracovní směny.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/soc-integrace/pletarna.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/soc-integrace/pletarna.png" alt="" width="48%" />
+</a></p>
+
+<h2 id="úvod">Úvod</h2>
+
+<p>Práce s názvem Integrace do průmyslu 4.0 se zabývá návrhem monitorovacího systému pro výrobní stroje a jeho nasazením ve firmě ROTEX Vysočina s.r.o. Tato firma se věnuje výrobě ponožek. Pracuje ve dvousměnném provozu a produkuje měsíčně přes dvanáct tisíc párů ponožek.</p>
+
+<p>Ve firmě je 25 pletacích strojů na ponožky, o které se v každé směně starají tři operátoři.
+Samotná práce operátora spočívá v kontrole upletených vzorků, otáčení dopletených ponožek a opravách porouchaných strojů.</p>
+
+<p>Systém je interně pojmenován Pletačka IoT.
+Jeho úkolem je monitoring počtu upletených ponožek, zaznamenávání doby zastavení jednotlivých strojů, porovnávání jednotlivých směn, ale také podání přehledu zaměstnavateli o aktuální produkci.</p>
+
+<p>Dříve firma neměla žádná data o době pletení, denní  produkci, nebo čase zapnutí strojů.
+To vše  můj systém řeší  a nabízí jednoduché, uživatelsky přívětivé rozhraní, kde si uživatel všechny tyto údaje přehledně zobrazí v grafech a v tabulkách.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/soc-integrace/V2-uchyceni.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/soc-integrace/V2-uchyceni.png" alt="" width="48%" />
+</a>
+<a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/soc-integrace/oba.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/soc-integrace/oba.png" alt="" width="48%" />
+</a></p>
+
+<h2 id="senzory">Senzory</h2>
+
+<p>Pletací stroje na ponožky jsou starší zařízení bez podpory připojení k internetu.
+Pro měření jsem tedy musel vyvinout vlastní  senzory, které získávají data z elektrických součástek na pletacích  strojích a skrze WiFi připojení je posílají  na server.
+Senzory Pletačka IoT jsem navrhoval tak, aby se daly jednoduše připojit na stávající pletací stroje a napojit je tak do centrálního řídícího systému.
+Dalším požadavkem senzoru bylo, aby neohrožoval chod samotného stroje, pokud není můj systém aktivní, nemá to žádný vliv na zbylý chod firmy.</p>
+
+<p>Senzory jsou postavené na mikrokontroléru ESP32, který nabízí dostatečný výkon a má bezdrátovou konektivitu WiFi.
+Každý z těchto senzorů má svoje jedinečné číslo, pod kterým posílá naměřená data na server.
+Senzor je napájen z 5 nebo 24 V a má spotřebu 120 mA.</p>
+
+<p>Na každém senzoru jsou dva optočleny napojené na indikační diody pletacího stroje.
+Z jedné diody se snímá zastavení stroje pro výpočet poruchového času a z druhé senzor získává počet upletených ponožek.
+Na těchto dvou údajích je postavený celý měřící a výpočetní systém.
+Dále senzor obsahuje dvě uživatelská tlačítka sloužící pro nastavení jedinečného ID senzoru.
+Pro rychlé grafické znázornění jsou na desce také dvě barevné diody.</p>
+
+<p>Hlavní vizuální roli zajišťuje LCD displej, na kterém se operátorům zobrazují základní údaje o stroji.
+Ve vrchní části jsou vypsány údaje o bezdrátovém připojení a číslo senzoru.
+Uprostřed se operátorovi velkým písmem zobrazuje počet upletených ponožek a v případně zastavení stroje čas odstávky.
+Tyto údaje se na každém stroji výrazně vykreslují a upozorňují tak obsluhu k brzké opravě.
+Poslední novinku, kterou jsem na senzory doprogramoval je zobrazování průměrné rychlosti pletení ponožek za hodinu.
+S takovýmto typem rychlosti se každodenně setkáváme například v autě a operátor z ní dokáže rychle dopočítat čas dopletení zakázky.</p>
+
+<p>Pro upevnění senzoru jsem vytvořil kompaktní 3D tištěnou krabičku.
+Tu jsem navrhoval v programu Fusion 360 a následně jsem ji vytiskl na 3D tiskárně.</p>
+
+<h2 id="webový-server">Webový server</h2>
+
+<p>Nedílnou součástí tohoto systému je také serverová část, která se stará o přijímání naměřených dat, jejich zpracování a následné zobrazení uživateli.
+Samotný server běží na mikropočítači Raspberry Pi 4 Modelu B.</p>
+
+<p>Na zařízení běží operační systém Raspberry Pi OS s grafickým rozhraním.
+Webové stránky běží na HTTP serveru Apache2 a PHP 8.0.
+Jako databázový systém využívám MariaDB.
+Server běží lokálně uvnitř firmy v zabezpečené síti, díky čemuž je systém rychlý a nezávislý na internetovém připojení.</p>
+
+<p>Na webový server se dá jednoduše připojit otevřením lokálního firemního odkazu.
+Poté se uživateli zobrazí úvodní přehledová stránka s barevnými bublinami, které představují jednotlivé pletací stroje.
+Jejich barva pak udává v jakém stavu se stroj aktuálně nachází. Uživatel tak dokáže velmi rychle zjistit aktuální funkčnost pletacích strojů bez nutnosti návštěvy pletárny.
+Kromě barvy se v bublině zobrazuje také text, ten ukazuje počet upletených ponožek a v případě zastavení stroje a zčervenání se text změní na dobu zastavení stroje.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/soc-integrace/Uvod.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/soc-integrace/Uvod.png" alt="" width="48%" />
+</a></p>
+
+<p>Další webovou stránkou jsou Přehledy ze senzorů generované pro každý pletací stroj.
+Zde se uživateli zobrazují data v různých časových přehledech.
+Pro snadné porovnání dat mezi dvěma směnami se tyto údaje zobrazují vedle sebe.
+Pod číselnými přehledy jsou pak předgenerované dlouhodobé grafy viz obrázek výše.</p>
+
+<p>Každý senzor využívá pět databázových tabulek. První slouží k ukládání surových dat, do zbylých tabulek se pak ukládají automaticky generované přehledy.
+Ty slouží k rychlému vykreslení grafů a výpočtu dlouhodobých údajů.
+Senzor zaznamená dopletenou ponožku a skrze REST API posílá naměřený údaj na webový server, ten ji zkontroluje a uloží do databáze ke konkrétnímu senzoru.
+Každý databázový záznam obsahuje číslo stroje, unikátní ID události, naměřený stav a čas události.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/soc-integrace/prehled.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/soc-integrace/prehled.png" alt="" width="48%" />
+</a></p>
+
+<h2 id="podpůrný-server">Podpůrný server</h2>
+
+<p>Podpůrný server vznikl jako rozšíření pro senzory.
+Server je naprogramovaný v Pythonu a běží na Raspberry Pi společně s webovým serverem.\newline</p>
+
+<p>Hlavním úkolem tohoto serveru je detekce zapnutých senzorů.
+Na serveru běží takzvaný Watchdog.
+Jde o periodickou smyčku, která každé čtyři vteřiny čeká na zprávu ze senzoru.
+Touto zprávou se senzor nahlásí, že je zapnutý. Pokud takováto zpráva nedojde do deseti vteřin, je senzor prohlášen za vypnutý a v databázi se označí jako neaktivní.</p>
+
+<h2 id="princip-fungování-pletačka-iot">Princip fungování Pletačka IoT</h2>
+
+<p>V předchozích kapitolách byly popsány části systému Pletačka IoT.
+V této kapitole bude celý systém popsán jako celek.</p>
+
+<p>První, a zároveň nejdůležitější částí, je získávání dat pomocí senzorů.
+Jakmile senzor zaznamená jakoukoliv změnu, okamžitě tuto zprávu odesílá na server.
+Odesílání probíhá skrze senzorové API, kde se nejdříve senzor ověří a následně se stav zapíše do databáze k příslušnému senzoru.
+Po zapsání do databáze se vrátí do senzoru zpráva o provedení zápisu.</p>
+
+<p>Dalším krokem je zpracovávání surových dat z databáze.
+K tomuto účelu běží na serveru výběrové API, které je automaticky spouštěné v nastavený čas.
+Slouží ke generování širších výběrů dat, hodinové, denní, měsíční a roční výběry.
+Tyto výběry se následně ukládají do databáze k danému senzoru.
+Generování těchto dat probíhá převážně v noci, kdy je server nejméně vytížen.</p>
+
+<p>Posledním krokem je zobrazení dat uživateli.
+Je to jediná část, se kterou se běžný uživatel dostane do kontaktu.
+Proto je nutné, aby zobrazení bylo co nejrychlejší a pro uživatele co nejpříjemnější.
+K rychlému zobrazování se využívají před generované výběry, ke kterým se dopočítají dosud nezpracovaná data a celý výsledek se zobrazí uživateli.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/soc-integrace/Princip.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/soc-integrace/Princip.png" alt="" width="48%" />
+</a></p>
+
+<h2 id="testování">Testování</h2>
+
+<p>Celý systém jsem vyvíjel od února 2020. První malé testy probíhaly již od května 2020, ale k většímu nasazení došlo až v září a listopadu 2020.
+Od té doby je systém ve firmě nasazen a průběžně probíhá kontrola měření a funkčnosti.</p>
+
+<h2 id="závěr">Závěr</h2>
+
+<p>Cíle této práce byly splněny. Ze starých, ale výrobně funkčních stojů, se díky mému systému staly moderní online stroje.
+Systém zefektivnil výrobu, šetří čas operátora, nahrazuje rutinní úkony vykonávané doposud operátorem a přináší detailní přehled o výrobě včetně vzájemného porovnání výrobních směn.
+System Pletačka IoT tak snižuje výrobní náklady při výrobě a to jednak v podobě minimalizace prostojů stroje při poruše, tak ušetřením času operátora při výrobě.</p>
+
+<p>Všechny tyto vytyčené cíle se mi podařilo splnit.
+Systém nadále běží ve firmě ROTEX Vysočina s.r.o a pomáhá v běžném provozu.
+Můj systém se stal nedílnou součástí výrobního procesu a analyzuje a zefektivňuje průběh výroby.</p>
+
+<p>Systém je k 20. červnu 2021 nasazen na deseti pletacích strojích a po dobu provozu zaznamenal již přes sto padesát tisíc upletených ponožek bez závady na senzorech.</p>
+
+<p>Velkým přínosem pro firmu je porovnávání pracovních směn, díky kterým zaměstnavatel ihned vidí rozdíly mezi produktivitou práce v daném čase.</p>
+
+<h2 id="textová-práce">Textová práce</h2>
+<!--Icons: https://fontawesome.com/v5/search -->
+
+<!--url="https://www.printables.com"-->
+<!--text="3D model krabičky"-->
+<!--icon="fas fa-box-open"-->
+
+<p><a href="https://drive.google.com/file/d/1c1HI9ECNU6c10owQugKubUP2j7m8Fm-p/view?usp=sharing" target="_blank">
+    <button class="orange-button zoom"><i class="fas fa-book fa-lg" style="margin-right:8px;">​</i>​Integrace do průmyslu 4.0
+    </button>
+</a></p>
+
+<h2 id="úspěchy-">Úspěchy 🏆</h2>
+<ul>
+  <li>1️⃣️ místo ve školním kole SOČ (duben 2021)</li>
+  <li>1️⃣ místo v krajském kole SOČ (květen 2021)</li>
+  <li>4️⃣ místo v celostátním kole SOČ (červen 2021)</li>
+  <li>Nominace na mezinárodní soutěže (září 2021)
+    <ul>
+      <li>🇱🇺 Expo-Sciences Luxembourg 2022, Lucemburk, Lucembursko</li>
+      <li>🇺🇸 Regeneron ISEF, Atlanta, USA (náhradník)</li>
+    </ul>
+  </li>
+  <li>Prezentace na mezinárodní konferenci (září 2022)
+    <ul>
+      <li>🇱🇺 Expo-Sciences Luxembourg 2022, Lucemburk, Lucembursko</li>
+    </ul>
+  </li>
+</ul>
+
+<p><a href="https://github.com/Pletacka-IoT" target="_blank"><button class="orange-button zoom"><i class="fab fa-github fa-lg " style="margin-right:8px;">​</i>​Zdrojové kódy a další informace</button></a></p>
+
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/9FYx6xdfJAo" width="700" height="480" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+    </iframe>
+</div>]]></content><author><name>Kuba Andrýsek</name></author><category term="IoT" /><summary type="html"><![CDATA[Systém pro automatický monitoring průmyslové výroby]]></summary></entry><entry xml:lang="cs"><title type="html">Dřevěné medaile</title><link href="https://kubaandrysek.cz/2020/10/08/drevene-medaile" rel="alternate" type="text/html" title="Dřevěné medaile" /><published>2020-10-08T10:00:00+00:00</published><updated>2020-10-08T10:00:00+00:00</updated><id>https://kubaandrysek.cz/2020/10/08/drevene-medaile</id><content type="html" xml:base="https://kubaandrysek.cz/2020/10/08/drevene-medaile"><![CDATA[<h1 id="výroba-dřevěných-gravírovaných-medailí-na-laseru">Výroba dřevěných gravírovaných medailí na laseru</h1>
+
+<p>V září jsem vyráběl medaile na lezecké závody <a href="https://www.facebook.com/climbingtechnologycup/">CT Cup</a>, které se konaly na umělé stěně v Ostravě.</p>
+
+<p>Práce zahrnovala grafický návrh medailí a jejich následnou výrobu na laseru.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/drevene-medaile/pack.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/drevene-medaile/pack.jpg" alt="" width="48%" />
+</a>
+<a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/drevene-medaile/grid.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/drevene-medaile/grid.jpg" alt="" width="48%" />
+</a></p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/drevene-medaile/source.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/drevene-medaile/source.jpg" alt="" width="48%" />
+</a></p>]]></content><author><name>Kuba Andrýsek</name></author><category term="Laser" /><summary type="html"><![CDATA[Výroba gravírovaných medailí na laseru]]></summary></entry><entry xml:lang="cs"><title type="html">Noční světýlko - pozdrav z tábora</title><link href="https://kubaandrysek.cz/2020/09/25/svetylko-tabor" rel="alternate" type="text/html" title="Noční světýlko - pozdrav z tábora" /><published>2020-09-25T11:00:00+00:00</published><updated>2020-09-25T11:00:00+00:00</updated><id>https://kubaandrysek.cz/2020/09/25/svetylko-tabor</id><content type="html" xml:base="https://kubaandrysek.cz/2020/09/25/svetylko-tabor"><![CDATA[<h2 id="návrh-nočního-světýlka-na-táborové-dílny-pro-ddm-helceletka">Návrh nočního světýlka na táborové dílny pro DDM Helceletka</h2>
+
+<p>O letních prázdninách pořádá <a href="https://helceletka.cz/">DDM Helceletka</a> příměstské tábory na kterých si děti vyzkouší aktivity z různých odvětví. Naše pobočka <a href="http://helceletka.cz/robotarna/">Robotárna</a> měla za úkol vytvořit také nějakou aktivitu kterou by si děti na táborech vyzkoušely. Finálním návrhem se tedy stalo noční světýlko “Pozdrav z tábora”, které si letos na táborech vytvořilo přes 50 dětí.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/svetylko-tabor/build.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/svetylko-tabor/build.jpg" alt="" width="48%" />
+</a>
+<a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/svetylko-tabor/led.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/svetylko-tabor/led.jpg" alt="" width="48%" />
+</a></p>
+
+<h2 id="konstrukce">Konstrukce</h2>
+<p>Noční světýlko vychází z dřívějšího projektu <a href="/2019/12/20/betlem">Vánoční betlém</a>, který však využíval pro napájení externí powerbanku. V tomto návrhu bylo potřeba mít napájení přímo ve světýlku, které si děti následně po sestavení odnesly domů. Jako napájení jsme tedy zvolili 3 AAA baterie. Pro nasvícení plexi skla, ze kterého je betlém vyroben,využíváme 5V LED pásek, který krásně prosvítí průhledné plexisklo.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/svetylko-tabor/construction.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/svetylko-tabor/construction.jpg" alt="" width="48%" />
+</a>
+<a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/svetylko-tabor/laser.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/svetylko-tabor/laser.jpg" alt="" width="48%" />
+</a></p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/svetylko-tabor/battery.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/svetylko-tabor/battery.jpg" alt="" width="48%" />
+</a>
+<a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/svetylko-tabor/light.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/svetylko-tabor/light.jpg" alt="" width="48%" />
+</a></p>]]></content><author><name>Kuba Andrýsek</name></author><category term="Helceletka" /><summary type="html"><![CDATA[Návrh nočního světýlka na táborové dílny pro DDM Helceletka]]></summary></entry><entry xml:lang="cs"><title type="html">Chytrý kurník</title><link href="https://kubaandrysek.cz/2020/04/15/chytry-kurnik" rel="alternate" type="text/html" title="Chytrý kurník" /><published>2020-04-15T14:00:00+00:00</published><updated>2020-04-15T14:00:00+00:00</updated><id>https://kubaandrysek.cz/2020/04/15/chytry-kurnik</id><content type="html" xml:base="https://kubaandrysek.cz/2020/04/15/chytry-kurnik"><![CDATA[<h1 id="chytrý-kurník-aneb-už-máme-wifi-i-v-kurníku">Chytrý kurník, aneb už máme WiFi i v kurníku</h1>
+
+<p>Doba se nám mění, a tak se snažíme mnoho věcí si zjednodušovat a automatizovat. 
+Z tohoto důvodu jsem navrhl a vytvořil Chytrý kurník.
+Jedná se o kurník s automatickým otevíráním a zavíráním dvířek v přednastavený čas.
+Součástí kurníku je také automatické pítko a krmítko které jsme sem zakoupili. 
+Díky tomuto vybavení se stává kurník z velké části autonomní.</p>
+
+<h2 id="automatická-dvířka">Automatická dvířka</h2>
+
+<h3 id="konstrukce">Konstrukce</h3>
+<p>Do kovové konstrukce dvířek je vložen 12V motorek z auta, který zajišťuje otevíraní a zavíraní dvířek.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/chytry-kurnik/system.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/chytry-kurnik/system.jpg" alt="" width="48%" />
+</a>
+<a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/chytry-kurnik/door.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/chytry-kurnik/door.jpg" alt="" width="48%" />
+</a></p>
+
+<h4 id="elektro">Elektro</h4>
+<p>Kurník je řízen pomocí modulu ESP32 a dvoukanálového relé, které je napojeno na motor dvířek. Aktuální čas je získáván z RTC modulu (DS3231). Dále využívám stepdown (LM2596) který snižuje napětí z 12V na 5V. Celá elektronka je napájena z 12V zdroje.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/chytry-kurnik/elektro1.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/chytry-kurnik/elektro1.jpg" alt="" width="48%" />
+</a>
+<a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/chytry-kurnik/elektro2.jpg" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/chytry-kurnik/elektro2.jpg" alt="" width="48%" />
+</a></p>
+
+<h4 id="souhrn-součástek">Souhrn součástek</h4>
+<ul>
+  <li>modul ESP32</li>
+  <li>2 kanálové relé</li>
+  <li>RTC modul (DS3231)</li>
+  <li>stepdown (LM2596)</li>
+  <li>2 tlačítka</li>
+  <li>napájecí zdroj 12V</li>
+</ul>
+
+<h4 id="program">Program</h4>
+<p>Důvod, proč jsem zvolil modul ESP32 je v podpoře WiFi, kterou využívám k nastavování času a řízení vrátek. Na ESPčku tedy běží webový server, na který se mohu pomocí telefonu připojit a jednoduše měnit nastavení. Zbytek programu je pouze o kontrole času a následném přepínaní stavů relé. Kromě automatického řízení je také možnost řídit dvířka manuálně pomocí dvou tlačítek.</p>
+
+<p><a style="text-decoration: none;" href="https://kubaandrysek.cz/assets/blog/chytry-kurnik/www-crop.png" data-fancybox="gallery" data-caption="">
+	<img class="gallery standart" src="https://kubaandrysek.cz/assets/blog/chytry-kurnik/www-crop.png" alt="" width="48%" />
+</a></p>
+
+<p><a href="https://github.com/JakubAndrysek/Chytry-kurnik" target="_blank"><button class="orange-button zoom"><i class="fab fa-github fa-lg " style="margin-right:8px;">​</i>​Zdrojový kód</button></a></p>]]></content><author><name>Kuba Andrýsek</name></author><category term="IoT" /><summary type="html"><![CDATA[Chytrý kurník, aneb automatizace celého kurníku]]></summary></entry></feed>

@@ -1,0 +1,803 @@
+/* @import "devlog"; */
+/* variables */
+html {
+  --bold-color: rgb(188, 188, 188);
+  --box-background-color: hsl(0, 0%, 20%);
+  --highlight-color: hsl(0, 0%, 60%);
+  --light-border-color: hsl(0, 0%, 30%);
+  --light-text-color: rgb(199, 199, 204);
+  --link-color: #f69801;
+  --link-color-visited: hsl(250, 100%, 60%);
+  --main-background-color: rgb(28, 28, 30);
+  --main-text-color: rgb(190, 183, 183);
+  --medium-text-color: hsl(0, 0%, 70%);
+  --underline-color: hsl(0, 0%, 50%);
+  --social-link-color: #ffffff;
+  --card-background-color: rgb(32, 32, 34);
+  --newsletter-background-color: #222324;
+  --button-background-color: #111;
+}
+
+html {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Progress bar */
+.my-class .bar {
+  background: #f69801;
+}
+
+body {
+  background-color: var(--main-background-color) !important;
+  color: var(--main-text-color) !important;
+  font-family: "Quicksand", sans-serif !important;
+  font-feature-settings: "kern" on;
+  font-size: 1.4rem;
+  font-variant-numeric: oldstyle-nums;
+  hanging-punctuation: first last;
+  height: 100%;
+  line-height: 1.35em;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  padding-top: 33px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--bold-color) !important;
+  line-height: 1.1;
+}
+
+a {
+  color: var(--link-color) !important;
+}
+
+/* Navigation Header */
+header {
+  background-color: var(--main-background-color);
+  box-shadow: 0px;
+  height: auto;
+  width: 100%;
+  padding: 11px;
+}
+
+/* bootstrap override */
+.container-fluid {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.card {
+  margin: 5px !important;
+  padding: 5px !important;
+  background-color: var(--card-background-color) !important;
+}
+
+.navbar {
+  box-shadow: #000 0px 0px 8px;
+  background-color: #131313 !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ff7601 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #000 !important;
+  border: 1px solid #020305 !important;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  margin: 15px;
+}
+
+#search-icon {
+  color: #FF7901;
+}
+
+.breadcrumb {
+  margin: 20px !important;
+  background-color: var(--card-background-color) !important;
+}
+
+#blog-post-container {
+  margin-top: -20px;
+}
+
+.product {
+  width: 300px;
+  float: left;
+}
+
+.snipcart-modal__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 100vh;
+  z-index: 10;
+  margin-top: 60px !important;
+  padding: 5px !important;
+  background-color: var(--main-background-color) !important;
+}
+
+.snipcart-cart__content {
+  margin: 0 auto;
+  background-color: var(--main-background-color) !important;
+}
+
+.snipcart-modal {
+  position: relative;
+  margin: 70px auto !important;
+  max-width: 100%;
+  background-color: var(--main-background-color) !important;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.snipcart-item-line {
+  background-color: var(--main-background-color) !important;
+  color: var(--bold-color) !important;
+  margin-bottom: 24px;
+  padding: 32px;
+  -webkit-box-shadow: 0 8px 24px rgba(231, 235, 237, 0.6);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6) !important;
+}
+
+.snipcart-item-quantity {
+  color: var(--bold-color) !important;
+  margin-top: -2px;
+}
+
+.snipcart-cart-summary-fees {
+  color: var(--bold-color) !important;
+}
+
+.snipcart-cart-header {
+  background-color: var(--main-background-color) !important;
+  color: var(--bold-color) !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.snipcart-modal__close-title {
+  color: coral !important;
+}
+
+.snipcart__button--icon {
+  border: 0px solid #f0f5f6 !important;
+}
+
+#snipcart-floating-cart {
+  margin-top: 150px;
+}
+
+.snipcart-cart-button--secondary {
+  color: --var(--bold-color) !important;
+  background-color: var(--button-background-color) !important;
+  padding: 16px;
+  text-transform: none;
+}
+
+.snipcart-payment-methods__title {
+  background-color: black !important;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-color: var(--main-background-color) !important;
+  background-image: url("https://d1qmdf3vop2l07.cloudfront.net/dear-deodorant.cloudvent.net/compressed/_min_/f6faab65951d8a814a63e2a7d9e61b66.svg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: top;
+}
+
+.lead {
+  font-size: 1.3rem !important;
+  font-weight: 600;
+  color: #ff7601 !important;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 25px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Gallery */
+/* image-gallery */
+#imageGallery {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lg-progress-bar .lg-progress {
+  background-color: #db980f !important;
+  height: 4px;
+  width: 0;
+}
+
+@media (min-width: 768px) {
+  .offset-md-1 {
+    margin-left: 3.333333% !important;
+  }
+  #topNav {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+#profile-card {
+  text-align: center;
+}
+#profile-card #author-img {
+  text-align: center;
+}
+#profile-card .profile-img {
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+}
+#profile-card .profile-name {
+  margin-top: 20px;
+}
+#profile-card .profile-bio,
+#profile-card .profile-links {
+  margin-top: 5px;
+}
+#profile-card .social-link {
+  color: var(--social-link-color);
+  font-size: 15px;
+  padding: 5px;
+  margin: 2px;
+  text-decoration: none !important;
+}
+#profile-card #header-nav {
+  float: right;
+  margin-inline-start: 45px;
+}
+#profile-card #navigation {
+  margin-top: 50px;
+}
+#profile-card .nav-link {
+  font-size: 15px !important;
+  color: var(--main-text-color);
+  font-weight: 600;
+}
+
+#author_projects .project-img {
+  width: 300px;
+  height: 200px;
+}
+#author_projects #project-card {
+  margin-top: 30px;
+}
+#author_projects .project-link {
+  color: var(--link-color);
+}
+#author_projects .container {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: -5px;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.author-profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.blog-post {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 45%;
+  height: auto;
+  margin: 20px !important;
+}
+
+.blog-post:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#newsletter_footer {
+  background-color: var(--newsletter-background-color);
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+#mc-embedded-subscribe-form {
+  width: 100%;
+  padding: 50px;
+}
+
+#mc_embed_signup_scroll_footer {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 22px;
+}
+
+#mce-EMAIL_footer {
+  width: 400px;
+  padding: 14px;
+  color: #111;
+  border-color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #fff;
+}
+
+#mc-embedded-subscribe_footer {
+  margin-top: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+}
+
+/* Responsive Media Queries */
+/*
+   ##Device = Low Resolution Tablets, Mobiles (Landscape)
+   ##Screen = B/w 320px to 480px
+ */
+@media (min-width: 320px) and (max-width: 480px) {
+  header {
+    height: auto;
+    text-align: center;
+  }
+  header #author-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  header #author_details {
+    text-align: center;
+  }
+  #mc-embedded-subscribe-form {
+    width: 100%;
+    padding: 50px;
+  }
+  #mc_embed_signup_scroll_footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 12px;
+  }
+  #mce-EMAIL_footer {
+    width: 200px;
+    padding: 14px;
+    color: #111;
+    border-color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+  }
+  #mc-embedded-subscribe_footer {
+    margin-top: 30px;
+  }
+  .blog-post {
+    width: 100%;
+    height: auto;
+    margin: -5px !important;
+  }
+}
+/*
+   ##Device = Low Resolution Tablets, Mobiles (Landscape)
+   ##Screen = B/w 481px to 767px
+ */
+@media (min-width: 481px) and (max-width: 767px) {
+  /*Header Navigation */
+  header #author-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  header #author_details {
+    text-align: center;
+  }
+  #mc-embedded-subscribe-form {
+    width: 100%;
+    padding: 50px;
+  }
+  #mc_embed_signup_scroll_footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 12px;
+  }
+  #mce-EMAIL_footer {
+    width: 200px;
+    padding: 14px;
+    color: #111;
+    border-color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+  }
+  #mc-embedded-subscribe_footer {
+    margin-top: 30px;
+  }
+  .blog-post {
+    width: 100%;
+    height: auto;
+    margin: 20px !important;
+  }
+}
+/* Syntax Hightlighter */
+/* Theme - Autumn */
+/* For More Themes : https://github.com/richleland/pygments-css */
+.highlight .hll {
+  background-color: #ffffcc;
+}
+
+.highlight {
+  background: #ffffff;
+}
+
+.highlight .c {
+  color: #aaaaaa;
+  font-style: italic;
+}
+
+/* Comment */
+.highlight .err {
+  color: #FF0000;
+  background-color: #FFAAAA;
+}
+
+/* Error */
+.highlight .k {
+  color: #0000aa;
+}
+
+/* Keyword */
+.highlight .ch {
+  color: #aaaaaa;
+  font-style: italic;
+}
+
+/* Comment.Hashbang */
+.highlight .cm {
+  color: #aaaaaa;
+  font-style: italic;
+}
+
+/* Comment.Multiline */
+.highlight .cp {
+  color: #4c8317;
+}
+
+/* Comment.Preproc */
+.highlight .cpf {
+  color: #aaaaaa;
+  font-style: italic;
+}
+
+/* Comment.PreprocFile */
+.highlight .c1 {
+  color: #aaaaaa;
+  font-style: italic;
+}
+
+/* Comment.Single */
+.highlight .cs {
+  color: #0000aa;
+  font-style: italic;
+}
+
+/* Comment.Special */
+.highlight .gd {
+  color: #aa0000;
+}
+
+/* Generic.Deleted */
+.highlight .ge {
+  font-style: italic;
+}
+
+/* Generic.Emph */
+.highlight .gr {
+  color: #aa0000;
+}
+
+/* Generic.Error */
+.highlight .gh {
+  color: #000080;
+  font-weight: bold;
+}
+
+/* Generic.Heading */
+.highlight .gi {
+  color: #00aa00;
+}
+
+/* Generic.Inserted */
+.highlight .go {
+  color: #888888;
+}
+
+/* Generic.Output */
+.highlight .gp {
+  color: #555555;
+}
+
+/* Generic.Prompt */
+.highlight .gs {
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+.highlight .gu {
+  color: #800080;
+  font-weight: bold;
+}
+
+/* Generic.Subheading */
+.highlight .gt {
+  color: #aa0000;
+}
+
+/* Generic.Traceback */
+.highlight .kc {
+  color: #0000aa;
+}
+
+/* Keyword.Constant */
+.highlight .kd {
+  color: #0000aa;
+}
+
+/* Keyword.Declaration */
+.highlight .kn {
+  color: #0000aa;
+}
+
+/* Keyword.Namespace */
+.highlight .kp {
+  color: #0000aa;
+}
+
+/* Keyword.Pseudo */
+.highlight .kr {
+  color: #0000aa;
+}
+
+/* Keyword.Reserved */
+.highlight .kt {
+  color: #00aaaa;
+}
+
+/* Keyword.Type */
+.highlight .m {
+  color: #009999;
+}
+
+/* Literal.Number */
+.highlight .s {
+  color: #aa5500;
+}
+
+/* Literal.String */
+.highlight .na {
+  color: #1e90ff;
+}
+
+/* Name.Attribute */
+.highlight .nb {
+  color: #00aaaa;
+}
+
+/* Name.Builtin */
+.highlight .nc {
+  color: #00aa00;
+  text-decoration: underline;
+}
+
+/* Name.Class */
+.highlight .no {
+  color: #aa0000;
+}
+
+/* Name.Constant */
+.highlight .nd {
+  color: #888888;
+}
+
+/* Name.Decorator */
+.highlight .ni {
+  color: #880000;
+  font-weight: bold;
+}
+
+/* Name.Entity */
+.highlight .nf {
+  color: #00aa00;
+}
+
+/* Name.Function */
+.highlight .nn {
+  color: #00aaaa;
+  text-decoration: underline;
+}
+
+/* Name.Namespace */
+.highlight .nt {
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+/* Name.Tag */
+.highlight .nv {
+  color: #aa0000;
+}
+
+/* Name.Variable */
+.highlight .ow {
+  color: #0000aa;
+}
+
+/* Operator.Word */
+.highlight .w {
+  color: #bbbbbb;
+}
+
+/* Text.Whitespace */
+.highlight .mb {
+  color: #009999;
+}
+
+/* Literal.Number.Bin */
+.highlight .mf {
+  color: #009999;
+}
+
+/* Literal.Number.Float */
+.highlight .mh {
+  color: #009999;
+}
+
+/* Literal.Number.Hex */
+.highlight .mi {
+  color: #009999;
+}
+
+/* Literal.Number.Integer */
+.highlight .mo {
+  color: #009999;
+}
+
+/* Literal.Number.Oct */
+.highlight .sa {
+  color: #aa5500;
+}
+
+/* Literal.String.Affix */
+.highlight .sb {
+  color: #aa5500;
+}
+
+/* Literal.String.Backtick */
+.highlight .sc {
+  color: #aa5500;
+}
+
+/* Literal.String.Char */
+.highlight .dl {
+  color: #aa5500;
+}
+
+/* Literal.String.Delimiter */
+.highlight .sd {
+  color: #aa5500;
+}
+
+/* Literal.String.Doc */
+.highlight .s2 {
+  color: #aa5500;
+}
+
+/* Literal.String.Double */
+.highlight .se {
+  color: #aa5500;
+}
+
+/* Literal.String.Escape */
+.highlight .sh {
+  color: #aa5500;
+}
+
+/* Literal.String.Heredoc */
+.highlight .si {
+  color: #aa5500;
+}
+
+/* Literal.String.Interpol */
+.highlight .sx {
+  color: #aa5500;
+}
+
+/* Literal.String.Other */
+.highlight .sr {
+  color: #009999;
+}
+
+/* Literal.String.Regex */
+.highlight .s1 {
+  color: #aa5500;
+}
+
+/* Literal.String.Single */
+.highlight .ss {
+  color: #0000aa;
+}
+
+/* Literal.String.Symbol */
+.highlight .bp {
+  color: #00aaaa;
+}
+
+/* Name.Builtin.Pseudo */
+.highlight .fm {
+  color: #00aa00;
+}
+
+/* Name.Function.Magic */
+.highlight .vc {
+  color: #aa0000;
+}
+
+/* Name.Variable.Class */
+.highlight .vg {
+  color: #aa0000;
+}
+
+/* Name.Variable.Global */
+.highlight .vi {
+  color: #aa0000;
+}
+
+/* Name.Variable.Instance */
+.highlight .vm {
+  color: #aa0000;
+}
+
+/* Name.Variable.Magic */
+.highlight .il {
+  color: #009999;
+}
+
+/* Literal.Number.Integer.Long */
+
+/*# sourceMappingURL=main.css.map */
