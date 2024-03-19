@@ -7,8 +7,8 @@ source "https://rubygems.org"
 # gem 'rake'
 # gem 'puma'
 
-# gem 'jekyll', '~> 4.0.0'
-gem 'jekyll'
+gem 'jekyll', '~> 4.3.3'
+# gem 'jekyll'
 gem 'bundler'
 gem "kramdown"
 gem 'rack-jekyll'
