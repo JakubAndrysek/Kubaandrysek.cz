@@ -228,5 +228,24 @@ layout: default
         </div>
         {% endif %}
 
-    </div>
-</div>
+        {% if site.show_author_jobs_details == true %}
+        <div class="card">
+            <h1 class="card-title">Pracovní zkušenosti</h1>
+            <br/>
+            {% for job in site.author_jobs_details %}
+            {% if job.visibility == true %}
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="{{site.url}}{{site.baseurl}}/assets/page/home/{{ job.company_logo }}" class="company-logo"/>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="experience-title"> {{ job.designation_cs }}</h4>
+                    <h6 class="experience-info"> {{ job.date_cs }}</h6>
+                    <p class="experience-desc"> {{ job.description_cs }} </p>
+                    <p><a href="{{job.company_url}}" target="_blank">{{ job.company_url}}</a></p>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}

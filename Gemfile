@@ -10,6 +10,8 @@ source "https://rubygems.org"
 gem 'jekyll', '~> 4.3.3'
 # gem 'jekyll'
 gem 'bundler'
+gem 'csv'
+gem 'base64'
 gem "kramdown"
 gem 'rack-jekyll'
 gem "rack"

@@ -112,6 +112,21 @@ author_education_details:
     description_cs: Bakalářský obor Programování a vývoj aplikací
     visibility: true
 
+
+show_author_jobs_details: true
+author_jobs_details:
+  - company_logo: jobs/espressif-systems.svg
+    company_name: Espressif Systems
+    company_name_cs: Espressif Systems
+    company_url: https://www.espressif.com
+    designation: Intern - Software Engineer
+    designation_cs: Stážista - Software Engineer
+    date: June 2025 - December 2025
+    date_cs: Červen 2025 - Prosinec 2025
+    description: Intern at the ESP32 Arduino Team <a href="https://github.com/espressif/arduino-esp32">github.com/espressif/arduino-esp32</a>
+    description_cs: Stážista v týmu ESP32 Arduino (https://github.com/espressif/arduino-esp32)
+    visibility: true
+
 # Setup for page projekty-categories
 # Which categories are displayed on page projekty
 # It depends on the order

@@ -220,5 +220,24 @@ layout: default
         </div>
         {% endif %}
 
-    </div>
-</div>
+        {% if site.show_author_jobs_details == true %}
+        <div class="card">
+            <h1 class="card-title">Jobs</h1>
+            <br/>
+            {% for job in site.author_jobs_details %}
+            {% if job.visibility == true %}
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="{{site.url}}{{site.baseurl}}/assets/page/home/{{ job.company_logo }}" class="company-logo"/>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="experience-title"> {{ job.designation }}</h4>
+                    <h6 class="experience-info"> {{ job.date }}</h6>
+                    <p class="experience-desc"> {{ job.description }} </p>
+                    <p><a href="{{job.company_url}}" target="_blank">{{ job.company_url}}</a></p>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
