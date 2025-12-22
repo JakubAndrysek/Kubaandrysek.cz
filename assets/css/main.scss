@@ -366,8 +366,10 @@ header {
 
 
 .company-logo {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    width: auto;
 }
 
 .author-profile-img {
@@ -547,7 +549,7 @@ footer {
     // .hide-small{
     //     display: none;
     // }
-    
+
     
 
  }

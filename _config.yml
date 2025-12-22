@@ -20,16 +20,27 @@ author_location: Czech Republic - Brno
 author_location_cs: Česká republika - Brno
 author_website_url: "https://kubaandrysek.cz"
 
-# image 100x100px
-author_work_experiences:
-  - designation: Organization of the Largest Robotics Competition in Czech Republic - Robotiáda (Technical Part)
-    designation_cs: Organizace největší robotické soutěže v ČR - Robotiáda (technická část)
-    date: February 2023
-    date_cs: Únor 2023
-    description: I held the position of technical guarantor at the competition.
-    description_cs: Na soutěži jsem měl pozici technického garanta.
+# Community Leadership Roles
+author_leadership_roles:
+  - designation: Main Leader of Robotic Camp
+    designation_cs: Hlavní vedoucí Robotického tábora
+    date: 2024 - present
+    date_cs: 2024 - současnost
+    description: Leading annual summer camp for youth interested in robotics, electronics, and programming
+    description_cs: Vedení letního tábora pro mladé lidi zajímající se o robotiku, elektroniku a programování
+    company_logo: work_experiences/roboticky-tabor.png
+    company_url: https://robotickytabor.cz
+  - designation: Organization of the Largest Robotics Competition in Czech Republic - Robotiáda
+    designation_cs: Organizace největší robotické soutěže v ČR - Robotiáda
+    date: 2022 - present
+    date_cs: 2022 - současnost
+    description: I have the position of technical guarantor at the competition.
+    description_cs: Na soutěži mám pozici technického garanta.
     company_logo: work_experiences/robotiada23.jpg
     company_url: https://robotiada.cz
+
+# image 100x100px
+author_work_experiences:
   - designation: Presentation of SOČ at an international conference in Luxembourg
     designation_cs: Prezentace SOČ na mezinárodní konferenci v Lucembursku
     date: October 2022

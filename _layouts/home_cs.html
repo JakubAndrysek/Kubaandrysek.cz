@@ -157,6 +157,29 @@ layout: default
         </div>
         {% endif %}
 
+        {% if site.author_leadership_roles %}
+        <div class="card">
+            <h1 class="card-title">Vedení v komunitě</h1>
+            <br />
+            <div class="work-experiences">
+                {% for exp in site.author_leadership_roles %}
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="{{site.url}}{{site.baseurl}}/assets/page/home/{{ exp.company_logo }}" class="company-logo" />
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="experience-title"> {{ exp.designation_cs }}</h4>
+                        <h6 class="experience-info"> {{ exp.date_cs}}</h6>
+                        <p class="experience-desc"> {{ exp.description_cs }} </p>
+                        <p><a href="{{exp.company_url}}" target="_blank">{{ exp.company_url}}</a></p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
         <div class="card">
             <h1 class="card-title"> Úspěchy </h1>
             <br/>
