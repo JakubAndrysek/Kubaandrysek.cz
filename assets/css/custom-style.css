@@ -1,0 +1,229 @@
+html {
+    --orange-hover: #dfb674;
+}
+
+body{
+    background-color: #111;
+}
+blockquote {
+    margin: 2rem 1rem 1rem;
+    padding: 3px;
+    background: whitesmoke;
+    border: 1px solid;
+}
+
+.gallery{
+    margin:4px;
+    max-width: 100%;
+}
+
+#highlight{
+    padding: 55px;
+}
+
+
+
+
+ul{
+    padding-left: 20px;
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 70%;
+    position: relative;
+}
+   
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 850px) {
+    .standart{
+        width: 100%;
+    }
+    .iframe-container {
+        padding-top: 150%;
+    }
+    .hide-small{
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .projects-more button{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 850px) {
+    .show-blog-text{
+        display: none;
+    }
+}
+
+
+.profile-img {
+    border-radius: 50%;
+}
+
+
+
+
+/* .blog-paginator .pagination>li>a,
+.blog-paginator .pagination>li>span {
+  border: 1px solid purple;
+}
+
+
+.blog-paginator.pagination>li.active>a {
+    background: purple;
+    color: #fff;
+  } */
+
+  /* .pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    z-index: 3;
+    color: #23527c;
+    background-color: purple;
+    border-color: #ddd;
+} */
+
+.blog-paginator.page-link {
+    background-color: red;
+}
+
+.orange-button
+{
+    background-color: #f69801;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+@media (max-width: 850px) {
+    .orange-button{
+        margin-top: 20px;
+    }
+}
+
+
+
+.orange-button:hover {
+    background-color: var(--orange-hover);
+  }
+
+
+/* .btn-download{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-download:hover{
+    background-color: RoyalBlue;
+} */
+
+
+a.nav-link.nav-hover:hover {
+    /* color: #f69801 !important;  */
+    text-decoration: underline;
+}
+
+a.nav-link.nav-hover.active {
+    color: #f69801 !important;
+    /* text-decoration: underline; */
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+
+
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    background-color: var(--card-background-color);
+    border: 1px solid var(--link-color) !important;
+}
+.page-item.disabled .page-link {
+    color: #868e96;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #64615c;
+    /*border-color: #718393;*/
+}
+.page-item.active .page-link {
+    z-index: 1;
+    background-color: var(--link-color) !important;
+    color: white !important;
+}
+.page-link:focus, .page-link:hover {
+    color: white !important;
+    text-decoration: none;
+    background-color: var(--orange-hover);
+}
+
+
+/* Nathan Lam
+   From: https://github.com/nathancy/jekyll-embed-video
+   June 2, 2017
+   Add this css for responsive embedded videos in your .css file. */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*.boxes-description {*/
+/*    font-size: 1.25rem;*/
+/*}*/
+
+.alert-boxes {
+    font-size: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+codersrank-timeline {
+    --tooltip-text-color: #ffffff;
+    --tooltip-bg-color: #444;
+    --timeline-item-bg-color: #414b73;
+    --tooltip-logo-size: 100px;
+}
